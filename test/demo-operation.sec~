@@ -1,0 +1,34 @@
+#
+# create database demo;
+ open database demo;
+
+#
+ delete alltaxis0708;
+ restore alltaxis0708 from alltaxis0708;
+#
+ delete alltrajs0708;
+ restore alltrajs0708 from alltrajs0708;
+#
+ delete allrtree0708;
+ let allrtree0708 = alltrajs0708 feed extend[MBR:bbox(.UTrip)] addid sortby [MBR asc] bulkloadrtree[MBR, TID];
+
+# all taxis relation
+ query allrtree0708;
+ query nodes(allrtree0708) consume;
+ query alltrajs0708;
+ query alltaxis0708;
+
+# single object ajixdo rtree;
+# delete ajixdo_rtree;
+# let ajixdo_rtree = ajixdo_Traj feed extend[MBR:bbox(.UTrip)] addid sortby [MBR asc] bulkloadrtree[MBR, TID];
+
+# query operator
+####  must query object 'rtree' to define range
+ 
+# single taxi ajixdo
+# query ajixdo_rtree;
+
+# query nodes(ajixdo_rtree) consume;
+# query ajixdo_traj;
+# query ajixdo;
+

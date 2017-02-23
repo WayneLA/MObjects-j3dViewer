@@ -1,0 +1,4827 @@
+# open database demo;
+
+
+## moving object1
+#
+ delete abgibo;
+ restore abgibo from 'TaxisTemp/abgibo_temp';
+#
+ delete abgibo_traj;
+ let abgibo_traj = abgibo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object2
+#
+ delete idsmuk;
+ restore idsmuk from 'TaxisTemp/idsmuk_temp';
+#
+ delete idsmuk_traj;
+ let idsmuk_traj = idsmuk feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object3
+#
+ delete ojfieza;
+ restore ojfieza from 'TaxisTemp/ojfieza_temp';
+#
+ delete ojfieza_traj;
+ let ojfieza_traj = ojfieza feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object4
+#
+ delete eadectio;
+ restore eadectio from 'TaxisTemp/eadectio_temp';
+#
+ delete eadectio_traj;
+ let eadectio_traj = eadectio feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object5
+#
+ delete elfyea;
+ restore elfyea from 'TaxisTemp/elfyea_temp';
+#
+ delete elfyea_traj;
+ let elfyea_traj = elfyea feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object6
+#
+ delete iackaw;
+ restore iackaw from 'TaxisTemp/iackaw_temp';
+#
+ delete iackaw_traj;
+ let iackaw_traj = iackaw feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object7
+#
+ delete oogchyog;
+ restore oogchyog from 'TaxisTemp/oogchyog_temp';
+#
+ delete oogchyog_traj;
+ let oogchyog_traj = oogchyog feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object8
+#
+ delete insodfl;
+ restore insodfl from 'TaxisTemp/insodfl_temp';
+#
+ delete insodfl_traj;
+ let insodfl_traj = insodfl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object9
+#
+ delete abjoolaw;
+ restore abjoolaw from 'TaxisTemp/abjoolaw_temp';
+#
+ delete abjoolaw_traj;
+ let abjoolaw_traj = abjoolaw feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object10
+#
+ delete ojbaso;
+ restore ojbaso from 'TaxisTemp/ojbaso_temp';
+#
+ delete ojbaso_traj;
+ let ojbaso_traj = ojbaso feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object11
+#
+ delete ekenucki;
+ restore ekenucki from 'TaxisTemp/ekenucki_temp';
+#
+ delete ekenucki_traj;
+ let ekenucki_traj = ekenucki feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object12
+#
+ delete inghoth;
+ restore inghoth from 'TaxisTemp/inghoth_temp';
+#
+ delete inghoth_traj;
+ let inghoth_traj = inghoth feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object13
+#
+ delete efmymo;
+ restore efmymo from 'TaxisTemp/efmymo_temp';
+#
+ delete efmymo_traj;
+ let efmymo_traj = efmymo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object14
+#
+ delete okavkau;
+ restore okavkau from 'TaxisTemp/okavkau_temp';
+#
+ delete okavkau_traj;
+ let okavkau_traj = okavkau feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object15
+#
+ delete ubjajo;
+ restore ubjajo from 'TaxisTemp/ubjajo_temp';
+#
+ delete ubjajo_traj;
+ let ubjajo_traj = ubjajo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object16
+#
+ delete imwyojy;
+ restore imwyojy from 'TaxisTemp/imwyojy_temp';
+#
+ delete imwyojy_traj;
+ let imwyojy_traj = imwyojy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object17
+#
+ delete ioangio;
+ restore ioangio from 'TaxisTemp/ioangio_temp';
+#
+ delete ioangio_traj;
+ let ioangio_traj = ioangio feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object18
+#
+ delete ancyclsu;
+ restore ancyclsu from 'TaxisTemp/ancyclsu_temp';
+#
+ delete ancyclsu_traj;
+ let ancyclsu_traj = ancyclsu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object19
+#
+ delete aiwalb;
+ restore aiwalb from 'TaxisTemp/aiwalb_temp';
+#
+ delete aiwalb_traj;
+ let aiwalb_traj = aiwalb feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object20
+#
+ delete anucks;
+ restore anucks from 'TaxisTemp/anucks_temp';
+#
+ delete anucks_traj;
+ let anucks_traj = anucks feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object21
+#
+ delete ifragcic;
+ restore ifragcic from 'TaxisTemp/ifragcic_temp';
+#
+ delete ifragcic_traj;
+ let ifragcic_traj = ifragcic feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object22
+#
+ delete esnddceb;
+ restore esnddceb from 'TaxisTemp/esnddceb_temp';
+#
+ delete esnddceb_traj;
+ let esnddceb_traj = esnddceb feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object23
+#
+ delete icdapnu;
+ restore icdapnu from 'TaxisTemp/icdapnu_temp';
+#
+ delete icdapnu_traj;
+ let icdapnu_traj = icdapnu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object24
+#
+ delete obceoo;
+ restore obceoo from 'TaxisTemp/obceoo_temp';
+#
+ delete obceoo_traj;
+ let obceoo_traj = obceoo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object25
+#
+ delete ockolral;
+ restore ockolral from 'TaxisTemp/ockolral_temp';
+#
+ delete ockolral_traj;
+ let ockolral_traj = ockolral feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object26
+#
+ delete adkavy;
+ restore adkavy from 'TaxisTemp/adkavy_temp';
+#
+ delete adkavy_traj;
+ let adkavy_traj = adkavy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object27
+#
+ delete oktulsy;
+ restore oktulsy from 'TaxisTemp/oktulsy_temp';
+#
+ delete oktulsy_traj;
+ let oktulsy_traj = oktulsy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object28
+#
+ delete ocshitcl;
+ restore ocshitcl from 'TaxisTemp/ocshitcl_temp';
+#
+ delete ocshitcl_traj;
+ let ocshitcl_traj = ocshitcl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object29
+#
+ delete ickguwa;
+ restore ickguwa from 'TaxisTemp/ickguwa_temp';
+#
+ delete ickguwa_traj;
+ let ickguwa_traj = ickguwa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object30
+#
+ delete ictmuog;
+ restore ictmuog from 'TaxisTemp/ictmuog_temp';
+#
+ delete ictmuog_traj;
+ let ictmuog_traj = ictmuog feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object31
+#
+ delete upthin;
+ restore upthin from 'TaxisTemp/upthin_temp';
+#
+ delete upthin_traj;
+ let upthin_traj = upthin feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object32
+#
+ delete eggfrij;
+ restore eggfrij from 'TaxisTemp/eggfrij_temp';
+#
+ delete eggfrij_traj;
+ let eggfrij_traj = eggfrij feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object33
+#
+ delete ucdewy;
+ restore ucdewy from 'TaxisTemp/ucdewy_temp';
+#
+ delete ucdewy_traj;
+ let ucdewy_traj = ucdewy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object34
+#
+ delete acvebr;
+ restore acvebr from 'TaxisTemp/acvebr_temp';
+#
+ delete acvebr_traj;
+ let acvebr_traj = acvebr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object35
+#
+ delete enekbl;
+ restore enekbl from 'TaxisTemp/enekbl_temp';
+#
+ delete enekbl_traj;
+ let enekbl_traj = enekbl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object36
+#
+ delete otswrank;
+ restore otswrank from 'TaxisTemp/otswrank_temp';
+#
+ delete otswrank_traj;
+ let otswrank_traj = otswrank feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object37
+#
+ delete ikkimm;
+ restore ikkimm from 'TaxisTemp/ikkimm_temp';
+#
+ delete ikkimm_traj;
+ let ikkimm_traj = ikkimm feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object38
+#
+ delete aygpha;
+ restore aygpha from 'TaxisTemp/aygpha_temp';
+#
+ delete aygpha_traj;
+ let aygpha_traj = aygpha feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object39
+#
+ delete atnokvo;
+ restore atnokvo from 'TaxisTemp/atnokvo_temp';
+#
+ delete atnokvo_traj;
+ let atnokvo_traj = atnokvo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object40
+#
+ delete ebrulra;
+ restore ebrulra from 'TaxisTemp/ebrulra_temp';
+#
+ delete ebrulra_traj;
+ let ebrulra_traj = ebrulra feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object41
+#
+ delete akgicjud;
+ restore akgicjud from 'TaxisTemp/akgicjud_temp';
+#
+ delete akgicjud_traj;
+ let akgicjud_traj = akgicjud feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object42
+#
+ delete ootyecls;
+ restore ootyecls from 'TaxisTemp/ootyecls_temp';
+#
+ delete ootyecls_traj;
+ let ootyecls_traj = ootyecls feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object43
+#
+ delete efcati;
+ restore efcati from 'TaxisTemp/efcati_temp';
+#
+ delete efcati_traj;
+ let efcati_traj = efcati feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object44
+#
+ delete oipial;
+ restore oipial from 'TaxisTemp/oipial_temp';
+#
+ delete oipial_traj;
+ let oipial_traj = oipial feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object45
+#
+ delete imneesu;
+ restore imneesu from 'TaxisTemp/imneesu_temp';
+#
+ delete imneesu_traj;
+ let imneesu_traj = imneesu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object46
+#
+ delete enidmopt;
+ restore enidmopt from 'TaxisTemp/enidmopt_temp';
+#
+ delete enidmopt_traj;
+ let enidmopt_traj = enidmopt feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object47
+#
+ delete ayfsdu;
+ restore ayfsdu from 'TaxisTemp/ayfsdu_temp';
+#
+ delete ayfsdu_traj;
+ let ayfsdu_traj = ayfsdu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object48
+#
+ delete ankped;
+ restore ankped from 'TaxisTemp/ankped_temp';
+#
+ delete ankped_traj;
+ let ankped_traj = ankped feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object49
+#
+ delete ojachme;
+ restore ojachme from 'TaxisTemp/ojachme_temp';
+#
+ delete ojachme_traj;
+ let ojachme_traj = ojachme feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object50
+#
+ delete idjoat;
+ restore idjoat from 'TaxisTemp/idjoat_temp';
+#
+ delete idjoat_traj;
+ let idjoat_traj = idjoat feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object51
+#
+ delete usbekhia;
+ restore usbekhia from 'TaxisTemp/usbekhia_temp';
+#
+ delete usbekhia_traj;
+ let usbekhia_traj = usbekhia feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object52
+#
+ delete afmorc;
+ restore afmorc from 'TaxisTemp/afmorc_temp';
+#
+ delete afmorc_traj;
+ let afmorc_traj = afmorc feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object53
+#
+ delete oapwycti;
+ restore oapwycti from 'TaxisTemp/oapwycti_temp';
+#
+ delete oapwycti_traj;
+ let oapwycti_traj = oapwycti feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object54
+#
+ delete eghanwib;
+ restore eghanwib from 'TaxisTemp/eghanwib_temp';
+#
+ delete eghanwib_traj;
+ let eghanwib_traj = eghanwib feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object55
+#
+ delete enarwee;
+ restore enarwee from 'TaxisTemp/enarwee_temp';
+#
+ delete enarwee_traj;
+ let enarwee_traj = enarwee feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object56
+#
+ delete opmisa;
+ restore opmisa from 'TaxisTemp/opmisa_temp';
+#
+ delete opmisa_traj;
+ let opmisa_traj = opmisa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object57
+#
+ delete ilyutje;
+ restore ilyutje from 'TaxisTemp/ilyutje_temp';
+#
+ delete ilyutje_traj;
+ let ilyutje_traj = ilyutje feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object58
+#
+ delete ipjiert;
+ restore ipjiert from 'TaxisTemp/ipjiert_temp';
+#
+ delete ipjiert_traj;
+ let ipjiert_traj = ipjiert feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object59
+#
+ delete iovlito;
+ restore iovlito from 'TaxisTemp/iovlito_temp';
+#
+ delete iovlito_traj;
+ let iovlito_traj = iovlito feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object60
+#
+ delete ovnacgad;
+ restore ovnacgad from 'TaxisTemp/ovnacgad_temp';
+#
+ delete ovnacgad_traj;
+ let ovnacgad_traj = ovnacgad feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object61
+#
+ delete ochtin;
+ restore ochtin from 'TaxisTemp/ochtin_temp';
+#
+ delete ochtin_traj;
+ let ochtin_traj = ochtin feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object62
+#
+ delete ubjaju;
+ restore ubjaju from 'TaxisTemp/ubjaju_temp';
+#
+ delete ubjaju_traj;
+ let ubjaju_traj = ubjaju feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object63
+#
+ delete ekyosjo;
+ restore ekyosjo from 'TaxisTemp/ekyosjo_temp';
+#
+ delete ekyosjo_traj;
+ let ekyosjo_traj = ekyosjo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object64
+#
+ delete alnihi;
+ restore alnihi from 'TaxisTemp/alnihi_temp';
+#
+ delete alnihi_traj;
+ let alnihi_traj = alnihi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object65
+#
+ delete orocdu;
+ restore orocdu from 'TaxisTemp/orocdu_temp';
+#
+ delete orocdu_traj;
+ let orocdu_traj = orocdu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object66
+#
+ delete edeejdru;
+ restore edeejdru from 'TaxisTemp/edeejdru_temp';
+#
+ delete edeejdru_traj;
+ let edeejdru_traj = edeejdru feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object67
+#
+ delete inghoghe;
+ restore inghoghe from 'TaxisTemp/inghoghe_temp';
+#
+ delete inghoghe_traj;
+ let inghoghe_traj = inghoghe feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object68
+#
+ delete okblahed;
+ restore okblahed from 'TaxisTemp/okblahed_temp';
+#
+ delete okblahed_traj;
+ let okblahed_traj = okblahed feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object69
+#
+ delete eshria;
+ restore eshria from 'TaxisTemp/eshria_temp';
+#
+ delete eshria_traj;
+ let eshria_traj = eshria feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object70
+#
+ delete utlurva;
+ restore utlurva from 'TaxisTemp/utlurva_temp';
+#
+ delete utlurva_traj;
+ let utlurva_traj = utlurva feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object71
+#
+ delete ifelas;
+ restore ifelas from 'TaxisTemp/ifelas_temp';
+#
+ delete ifelas_traj;
+ let ifelas_traj = ifelas feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object72
+#
+ delete oncalku;
+ restore oncalku from 'TaxisTemp/oncalku_temp';
+#
+ delete oncalku_traj;
+ let oncalku_traj = oncalku feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object73
+#
+ delete acgerl;
+ restore acgerl from 'TaxisTemp/acgerl_temp';
+#
+ delete acgerl_traj;
+ let acgerl_traj = acgerl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object74
+#
+ delete itcemra;
+ restore itcemra from 'TaxisTemp/itcemra_temp';
+#
+ delete itcemra_traj;
+ let itcemra_traj = itcemra feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object75
+#
+ delete egteir;
+ restore egteir from 'TaxisTemp/egteir_temp';
+#
+ delete egteir_traj;
+ let egteir_traj = egteir feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object76
+#
+ delete aggjuo;
+ restore aggjuo from 'TaxisTemp/aggjuo_temp';
+#
+ delete aggjuo_traj;
+ let aggjuo_traj = aggjuo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object77
+#
+ delete ijprukfr;
+ restore ijprukfr from 'TaxisTemp/ijprukfr_temp';
+#
+ delete ijprukfr_traj;
+ let ijprukfr_traj = ijprukfr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object78
+#
+ delete eoydba;
+ restore eoydba from 'TaxisTemp/eoydba_temp';
+#
+ delete eoydba_traj;
+ let eoydba_traj = eoydba feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object79
+#
+ delete itmeps;
+ restore itmeps from 'TaxisTemp/itmeps_temp';
+#
+ delete itmeps_traj;
+ let itmeps_traj = itmeps feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object80
+#
+ delete opgovebo;
+ restore opgovebo from 'TaxisTemp/opgovebo_temp';
+#
+ delete opgovebo_traj;
+ let opgovebo_traj = opgovebo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object81
+#
+ delete ouvdank;
+ restore ouvdank from 'TaxisTemp/ouvdank_temp';
+#
+ delete ouvdank_traj;
+ let ouvdank_traj = ouvdank feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object82
+#
+ delete ayquasto;
+ restore ayquasto from 'TaxisTemp/ayquasto_temp';
+#
+ delete ayquasto_traj;
+ let ayquasto_traj = ayquasto feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object83
+#
+ delete ecfesy;
+ restore ecfesy from 'TaxisTemp/ecfesy_temp';
+#
+ delete ecfesy_traj;
+ let ecfesy_traj = ecfesy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object84
+#
+ delete isvayd;
+ restore isvayd from 'TaxisTemp/isvayd_temp';
+#
+ delete isvayd_traj;
+ let isvayd_traj = isvayd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object85
+#
+ delete ujnawwe;
+ restore ujnawwe from 'TaxisTemp/ujnawwe_temp';
+#
+ delete ujnawwe_traj;
+ let ujnawwe_traj = ujnawwe feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object86
+#
+ delete iatojbo;
+ restore iatojbo from 'TaxisTemp/iatojbo_temp';
+#
+ delete iatojbo_traj;
+ let iatojbo_traj = iatojbo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object87
+#
+ delete okneydy;
+ restore okneydy from 'TaxisTemp/okneydy_temp';
+#
+ delete okneydy_traj;
+ let okneydy_traj = okneydy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object88
+#
+ delete erjboyni;
+ restore erjboyni from 'TaxisTemp/erjboyni_temp';
+#
+ delete erjboyni_traj;
+ let erjboyni_traj = erjboyni feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object89
+#
+ delete oocsodpl;
+ restore oocsodpl from 'TaxisTemp/oocsodpl_temp';
+#
+ delete oocsodpl_traj;
+ let oocsodpl_traj = oocsodpl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object90
+#
+ delete ikujfurk;
+ restore ikujfurk from 'TaxisTemp/ikujfurk_temp';
+#
+ delete ikujfurk_traj;
+ let ikujfurk_traj = ikujfurk feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object91
+#
+ delete abtyff;
+ restore abtyff from 'TaxisTemp/abtyff_temp';
+#
+ delete abtyff_traj;
+ let abtyff_traj = abtyff feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object92
+#
+ delete ootquoa;
+ restore ootquoa from 'TaxisTemp/ootquoa_temp';
+#
+ delete ootquoa_traj;
+ let ootquoa_traj = ootquoa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object93
+#
+ delete eovsyt;
+ restore eovsyt from 'TaxisTemp/eovsyt_temp';
+#
+ delete eovsyt_traj;
+ let eovsyt_traj = eovsyt feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object94
+#
+ delete ejnoax;
+ restore ejnoax from 'TaxisTemp/ejnoax_temp';
+#
+ delete ejnoax_traj;
+ let ejnoax_traj = ejnoax feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object95
+#
+ delete ikdagcy;
+ restore ikdagcy from 'TaxisTemp/ikdagcy_temp';
+#
+ delete ikdagcy_traj;
+ let ikdagcy_traj = ikdagcy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object96
+#
+ delete iofplik;
+ restore iofplik from 'TaxisTemp/iofplik_temp';
+#
+ delete iofplik_traj;
+ let iofplik_traj = iofplik feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object97
+#
+ delete ucovlato;
+ restore ucovlato from 'TaxisTemp/ucovlato_temp';
+#
+ delete ucovlato_traj;
+ let ucovlato_traj = ucovlato feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object98
+#
+ delete uvburki;
+ restore uvburki from 'TaxisTemp/uvburki_temp';
+#
+ delete uvburki_traj;
+ let uvburki_traj = uvburki feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object99
+#
+ delete utwoab;
+ restore utwoab from 'TaxisTemp/utwoab_temp';
+#
+ delete utwoab_traj;
+ let utwoab_traj = utwoab feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object100
+#
+ delete idholv;
+ restore idholv from 'TaxisTemp/idholv_temp';
+#
+ delete idholv_traj;
+ let idholv_traj = idholv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object101
+#
+ delete eenjoug;
+ restore eenjoug from 'TaxisTemp/eenjoug_temp';
+#
+ delete eenjoug_traj;
+ let eenjoug_traj = eenjoug feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object102
+#
+ delete agivle;
+ restore agivle from 'TaxisTemp/agivle_temp';
+#
+ delete agivle_traj;
+ let agivle_traj = agivle feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object103
+#
+ delete ichankru;
+ restore ichankru from 'TaxisTemp/ichankru_temp';
+#
+ delete ichankru_traj;
+ let ichankru_traj = ichankru feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object104
+#
+ delete ivkockim;
+ restore ivkockim from 'TaxisTemp/ivkockim_temp';
+#
+ delete ivkockim_traj;
+ let ivkockim_traj = ivkockim feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object105
+#
+ delete osckro;
+ restore osckro from 'TaxisTemp/osckro_temp';
+#
+ delete osckro_traj;
+ let osckro_traj = osckro feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object106
+#
+ delete easnsvu;
+ restore easnsvu from 'TaxisTemp/easnsvu_temp';
+#
+ delete easnsvu_traj;
+ let easnsvu_traj = easnsvu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object107
+#
+ delete ewvnil;
+ restore ewvnil from 'TaxisTemp/ewvnil_temp';
+#
+ delete ewvnil_traj;
+ let ewvnil_traj = ewvnil feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object108
+#
+ delete ijhipvo;
+ restore ijhipvo from 'TaxisTemp/ijhipvo_temp';
+#
+ delete ijhipvo_traj;
+ let ijhipvo_traj = ijhipvo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object109
+#
+ delete ansyut;
+ restore ansyut from 'TaxisTemp/ansyut_temp';
+#
+ delete ansyut_traj;
+ let ansyut_traj = ansyut feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object110
+#
+ delete udthon;
+ restore udthon from 'TaxisTemp/udthon_temp';
+#
+ delete udthon_traj;
+ let udthon_traj = udthon feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object111
+#
+ delete ibwicim;
+ restore ibwicim from 'TaxisTemp/ibwicim_temp';
+#
+ delete ibwicim_traj;
+ let ibwicim_traj = ibwicim feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object112
+#
+ delete igsoysla;
+ restore igsoysla from 'TaxisTemp/igsoysla_temp';
+#
+ delete igsoysla_traj;
+ let igsoysla_traj = igsoysla feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object113
+#
+ delete omluaj;
+ restore omluaj from 'TaxisTemp/omluaj_temp';
+#
+ delete omluaj_traj;
+ let omluaj_traj = omluaj feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object114
+#
+ delete eifvid;
+ restore eifvid from 'TaxisTemp/eifvid_temp';
+#
+ delete eifvid_traj;
+ let eifvid_traj = eifvid feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object115
+#
+ delete aypudby;
+ restore aypudby from 'TaxisTemp/aypudby_temp';
+#
+ delete aypudby_traj;
+ let aypudby_traj = aypudby feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object116
+#
+ delete apsskyul;
+ restore apsskyul from 'TaxisTemp/apsskyul_temp';
+#
+ delete apsskyul_traj;
+ let apsskyul_traj = apsskyul feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object117
+#
+ delete oygvar;
+ restore oygvar from 'TaxisTemp/oygvar_temp';
+#
+ delete oygvar_traj;
+ let oygvar_traj = oygvar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object118
+#
+ delete icdultha;
+ restore icdultha from 'TaxisTemp/icdultha_temp';
+#
+ delete icdultha_traj;
+ let icdultha_traj = icdultha feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object119
+#
+ delete efspheco;
+ restore efspheco from 'TaxisTemp/efspheco_temp';
+#
+ delete efspheco_traj;
+ let efspheco_traj = efspheco feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object120
+#
+ delete auctjir;
+ restore auctjir from 'TaxisTemp/auctjir_temp';
+#
+ delete auctjir_traj;
+ let auctjir_traj = auctjir feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object121
+#
+ delete okvats;
+ restore okvats from 'TaxisTemp/okvats_temp';
+#
+ delete okvats_traj;
+ let okvats_traj = okvats feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object122
+#
+ delete idtwal;
+ restore idtwal from 'TaxisTemp/idtwal_temp';
+#
+ delete idtwal_traj;
+ let idtwal_traj = idtwal feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object123
+#
+ delete onghoji;
+ restore onghoji from 'TaxisTemp/onghoji_temp';
+#
+ delete onghoji_traj;
+ let onghoji_traj = onghoji feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object124
+#
+ delete egreosko;
+ restore egreosko from 'TaxisTemp/egreosko_temp';
+#
+ delete egreosko_traj;
+ let egreosko_traj = egreosko feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object125
+#
+ delete agvexpia;
+ restore agvexpia from 'TaxisTemp/agvexpia_temp';
+#
+ delete agvexpia_traj;
+ let agvexpia_traj = agvexpia feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object126
+#
+ delete aviltly;
+ restore aviltly from 'TaxisTemp/aviltly_temp';
+#
+ delete aviltly_traj;
+ let aviltly_traj = aviltly feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object127
+#
+ delete urfhod;
+ restore urfhod from 'TaxisTemp/urfhod_temp';
+#
+ delete urfhod_traj;
+ let urfhod_traj = urfhod feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object128
+#
+ delete eavflid;
+ restore eavflid from 'TaxisTemp/eavflid_temp';
+#
+ delete eavflid_traj;
+ let eavflid_traj = eavflid feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object129
+#
+ delete ictlypt;
+ restore ictlypt from 'TaxisTemp/ictlypt_temp';
+#
+ delete ictlypt_traj;
+ let ictlypt_traj = ictlypt feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object130
+#
+ delete edlyxy;
+ restore edlyxy from 'TaxisTemp/edlyxy_temp';
+#
+ delete edlyxy_traj;
+ let edlyxy_traj = edlyxy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object131
+#
+ delete ecjeody;
+ restore ecjeody from 'TaxisTemp/ecjeody_temp';
+#
+ delete ecjeody_traj;
+ let ecjeody_traj = ecjeody feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object132
+#
+ delete esudcejo;
+ restore esudcejo from 'TaxisTemp/esudcejo_temp';
+#
+ delete esudcejo_traj;
+ let esudcejo_traj = esudcejo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object133
+#
+ delete ijthind;
+ restore ijthind from 'TaxisTemp/ijthind_temp';
+#
+ delete ijthind_traj;
+ let ijthind_traj = ijthind feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object134
+#
+ delete atsfiv;
+ restore atsfiv from 'TaxisTemp/atsfiv_temp';
+#
+ delete atsfiv_traj;
+ let atsfiv_traj = atsfiv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object135
+#
+ delete uvjova;
+ restore uvjova from 'TaxisTemp/uvjova_temp';
+#
+ delete uvjova_traj;
+ let uvjova_traj = uvjova feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object136
+#
+ delete oxdoghic;
+ restore oxdoghic from 'TaxisTemp/oxdoghic_temp';
+#
+ delete oxdoghic_traj;
+ let oxdoghic_traj = oxdoghic feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object137
+#
+ delete icodmup;
+ restore icodmup from 'TaxisTemp/icodmup_temp';
+#
+ delete icodmup_traj;
+ let icodmup_traj = icodmup feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object138
+#
+ delete eegcef;
+ restore eegcef from 'TaxisTemp/eegcef_temp';
+#
+ delete eegcef_traj;
+ let eegcef_traj = eegcef feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object139
+#
+ delete ubzachy;
+ restore ubzachy from 'TaxisTemp/ubzachy_temp';
+#
+ delete ubzachy_traj;
+ let ubzachy_traj = ubzachy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object140
+#
+ delete ophgir;
+ restore ophgir from 'TaxisTemp/ophgir_temp';
+#
+ delete ophgir_traj;
+ let ophgir_traj = ophgir feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object141
+#
+ delete udwadla;
+ restore udwadla from 'TaxisTemp/udwadla_temp';
+#
+ delete udwadla_traj;
+ let udwadla_traj = udwadla feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object142
+#
+ delete uthomoov;
+ restore uthomoov from 'TaxisTemp/uthomoov_temp';
+#
+ delete uthomoov_traj;
+ let uthomoov_traj = uthomoov feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object143
+#
+ delete aucjun;
+ restore aucjun from 'TaxisTemp/aucjun_temp';
+#
+ delete aucjun_traj;
+ let aucjun_traj = aucjun feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object144
+#
+ delete oiphye;
+ restore oiphye from 'TaxisTemp/oiphye_temp';
+#
+ delete oiphye_traj;
+ let oiphye_traj = oiphye feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object145
+#
+ delete eosluip;
+ restore eosluip from 'TaxisTemp/eosluip_temp';
+#
+ delete eosluip_traj;
+ let eosluip_traj = eosluip feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object146
+#
+ delete elswcky;
+ restore elswcky from 'TaxisTemp/elswcky_temp';
+#
+ delete elswcky_traj;
+ let elswcky_traj = elswcky feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object147
+#
+ delete ecnoplsi;
+ restore ecnoplsi from 'TaxisTemp/ecnoplsi_temp';
+#
+ delete ecnoplsi_traj;
+ let ecnoplsi_traj = ecnoplsi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object148
+#
+ delete ujhuki;
+ restore ujhuki from 'TaxisTemp/ujhuki_temp';
+#
+ delete ujhuki_traj;
+ let ujhuki_traj = ujhuki feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object149
+#
+ delete ononma;
+ restore ononma from 'TaxisTemp/ononma_temp';
+#
+ delete ononma_traj;
+ let ononma_traj = ononma feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object150
+#
+ delete odolfev;
+ restore odolfev from 'TaxisTemp/odolfev_temp';
+#
+ delete odolfev_traj;
+ let odolfev_traj = odolfev feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object151
+#
+ delete enjubpl;
+ restore enjubpl from 'TaxisTemp/enjubpl_temp';
+#
+ delete enjubpl_traj;
+ let enjubpl_traj = enjubpl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object152
+#
+ delete ayquexar;
+ restore ayquexar from 'TaxisTemp/ayquexar_temp';
+#
+ delete ayquexar_traj;
+ let ayquexar_traj = ayquexar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object153
+#
+ delete erulghiv;
+ restore erulghiv from 'TaxisTemp/erulghiv_temp';
+#
+ delete erulghiv_traj;
+ let erulghiv_traj = erulghiv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object154
+#
+ delete ubnankke;
+ restore ubnankke from 'TaxisTemp/ubnankke_temp';
+#
+ delete ubnankke_traj;
+ let ubnankke_traj = ubnankke feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object155
+#
+ delete ujkiwe;
+ restore ujkiwe from 'TaxisTemp/ujkiwe_temp';
+#
+ delete ujkiwe_traj;
+ let ujkiwe_traj = ujkiwe feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object156
+#
+ delete anidgib;
+ restore anidgib from 'TaxisTemp/anidgib_temp';
+#
+ delete anidgib_traj;
+ let anidgib_traj = anidgib feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object157
+#
+ delete afweka;
+ restore afweka from 'TaxisTemp/afweka_temp';
+#
+ delete afweka_traj;
+ let afweka_traj = afweka feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object158
+#
+ delete eoffrij;
+ restore eoffrij from 'TaxisTemp/eoffrij_temp';
+#
+ delete eoffrij_traj;
+ let eoffrij_traj = eoffrij feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object159
+#
+ delete ipdraw;
+ restore ipdraw from 'TaxisTemp/ipdraw_temp';
+#
+ delete ipdraw_traj;
+ let ipdraw_traj = ipdraw feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object160
+#
+ delete ayshekki;
+ restore ayshekki from 'TaxisTemp/ayshekki_temp';
+#
+ delete ayshekki_traj;
+ let ayshekki_traj = ayshekki feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object161
+#
+ delete otvasdar;
+ restore otvasdar from 'TaxisTemp/otvasdar_temp';
+#
+ delete otvasdar_traj;
+ let otvasdar_traj = otvasdar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object162
+#
+ delete omdrid;
+ restore omdrid from 'TaxisTemp/omdrid_temp';
+#
+ delete omdrid_traj;
+ let omdrid_traj = omdrid feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object163
+#
+ delete oivnabyo;
+ restore oivnabyo from 'TaxisTemp/oivnabyo_temp';
+#
+ delete oivnabyo_traj;
+ let oivnabyo_traj = oivnabyo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object164
+#
+ delete utkibedy;
+ restore utkibedy from 'TaxisTemp/utkibedy_temp';
+#
+ delete utkibedy_traj;
+ let utkibedy_traj = utkibedy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object165
+#
+ delete ilkedve;
+ restore ilkedve from 'TaxisTemp/ilkedve_temp';
+#
+ delete ilkedve_traj;
+ let ilkedve_traj = ilkedve feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object166
+#
+ delete ibgryk;
+ restore ibgryk from 'TaxisTemp/ibgryk_temp';
+#
+ delete ibgryk_traj;
+ let ibgryk_traj = ibgryk feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object167
+#
+ delete ugdifbl;
+ restore ugdifbl from 'TaxisTemp/ugdifbl_temp';
+#
+ delete ugdifbl_traj;
+ let ugdifbl_traj = ugdifbl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object168
+#
+ delete aupclik;
+ restore aupclik from 'TaxisTemp/aupclik_temp';
+#
+ delete aupclik_traj;
+ let aupclik_traj = aupclik feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object169
+#
+ delete aydwaho;
+ restore aydwaho from 'TaxisTemp/aydwaho_temp';
+#
+ delete aydwaho_traj;
+ let aydwaho_traj = aydwaho feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object170
+#
+ delete igvidth;
+ restore igvidth from 'TaxisTemp/igvidth_temp';
+#
+ delete igvidth_traj;
+ let igvidth_traj = igvidth feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object171
+#
+ delete ifefrof;
+ restore ifefrof from 'TaxisTemp/ifefrof_temp';
+#
+ delete ifefrof_traj;
+ let ifefrof_traj = ifefrof feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object172
+#
+ delete otmegok;
+ restore otmegok from 'TaxisTemp/otmegok_temp';
+#
+ delete otmegok_traj;
+ let otmegok_traj = otmegok feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object173
+#
+ delete elaflevy;
+ restore elaflevy from 'TaxisTemp/elaflevy_temp';
+#
+ delete elaflevy_traj;
+ let elaflevy_traj = elaflevy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object174
+#
+ delete indyep;
+ restore indyep from 'TaxisTemp/indyep_temp';
+#
+ delete indyep_traj;
+ let indyep_traj = indyep feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object175
+#
+ delete isnthli;
+ restore isnthli from 'TaxisTemp/isnthli_temp';
+#
+ delete isnthli_traj;
+ let isnthli_traj = isnthli feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object176
+#
+ delete ukgoaf;
+ restore ukgoaf from 'TaxisTemp/ukgoaf_temp';
+#
+ delete ukgoaf_traj;
+ let ukgoaf_traj = ukgoaf feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object177
+#
+ delete arcurbig;
+ restore arcurbig from 'TaxisTemp/arcurbig_temp';
+#
+ delete arcurbig_traj;
+ let arcurbig_traj = arcurbig feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object178
+#
+ delete oirzgont;
+ restore oirzgont from 'TaxisTemp/oirzgont_temp';
+#
+ delete oirzgont_traj;
+ let oirzgont_traj = oirzgont feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object179
+#
+ delete onyacju;
+ restore onyacju from 'TaxisTemp/onyacju_temp';
+#
+ delete onyacju_traj;
+ let onyacju_traj = onyacju feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object180
+#
+ delete uggdye;
+ restore uggdye from 'TaxisTemp/uggdye_temp';
+#
+ delete uggdye_traj;
+ let uggdye_traj = uggdye feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object181
+#
+ delete eapceou;
+ restore eapceou from 'TaxisTemp/eapceou_temp';
+#
+ delete eapceou_traj;
+ let eapceou_traj = eapceou feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object182
+#
+ delete amknywr;
+ restore amknywr from 'TaxisTemp/amknywr_temp';
+#
+ delete amknywr_traj;
+ let amknywr_traj = amknywr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object183
+#
+ delete idodly;
+ restore idodly from 'TaxisTemp/idodly_temp';
+#
+ delete idodly_traj;
+ let idodly_traj = idodly feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object184
+#
+ delete oahudflo;
+ restore oahudflo from 'TaxisTemp/oahudflo_temp';
+#
+ delete oahudflo_traj;
+ let oahudflo_traj = oahudflo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object185
+#
+ delete oshyon;
+ restore oshyon from 'TaxisTemp/oshyon_temp';
+#
+ delete oshyon_traj;
+ let oshyon_traj = oshyon feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object186
+#
+ delete oquiat;
+ restore oquiat from 'TaxisTemp/oquiat_temp';
+#
+ delete oquiat_traj;
+ let oquiat_traj = oquiat feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object187
+#
+ delete owhagme;
+ restore owhagme from 'TaxisTemp/owhagme_temp';
+#
+ delete owhagme_traj;
+ let owhagme_traj = owhagme feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object188
+#
+ delete owufrey;
+ restore owufrey from 'TaxisTemp/owufrey_temp';
+#
+ delete owufrey_traj;
+ let owufrey_traj = owufrey feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object189
+#
+ delete eddreba;
+ restore eddreba from 'TaxisTemp/eddreba_temp';
+#
+ delete eddreba_traj;
+ let eddreba_traj = eddreba feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object190
+#
+ delete orsyalf;
+ restore orsyalf from 'TaxisTemp/orsyalf_temp';
+#
+ delete orsyalf_traj;
+ let orsyalf_traj = orsyalf feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object191
+#
+ delete itbejsco;
+ restore itbejsco from 'TaxisTemp/itbejsco_temp';
+#
+ delete itbejsco_traj;
+ let itbejsco_traj = itbejsco feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object192
+#
+ delete ewufri;
+ restore ewufri from 'TaxisTemp/ewufri_temp';
+#
+ delete ewufri_traj;
+ let ewufri_traj = ewufri feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object193
+#
+ delete eckecky;
+ restore eckecky from 'TaxisTemp/eckecky_temp';
+#
+ delete eckecky_traj;
+ let eckecky_traj = eckecky feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object194
+#
+ delete alsheth;
+ restore alsheth from 'TaxisTemp/alsheth_temp';
+#
+ delete alsheth_traj;
+ let alsheth_traj = alsheth feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object195
+#
+ delete ellimtbu;
+ restore ellimtbu from 'TaxisTemp/ellimtbu_temp';
+#
+ delete ellimtbu_traj;
+ let ellimtbu_traj = ellimtbu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object196
+#
+ delete uvreoipy;
+ restore uvreoipy from 'TaxisTemp/uvreoipy_temp';
+#
+ delete uvreoipy_traj;
+ let uvreoipy_traj = uvreoipy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object197
+#
+ delete atcilav;
+ restore atcilav from 'TaxisTemp/atcilav_temp';
+#
+ delete atcilav_traj;
+ let atcilav_traj = atcilav feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object198
+#
+ delete abwecnij;
+ restore abwecnij from 'TaxisTemp/abwecnij_temp';
+#
+ delete abwecnij_traj;
+ let abwecnij_traj = abwecnij feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object199
+#
+ delete ifkalda;
+ restore ifkalda from 'TaxisTemp/ifkalda_temp';
+#
+ delete ifkalda_traj;
+ let ifkalda_traj = ifkalda feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object200
+#
+ delete edmugrip;
+ restore edmugrip from 'TaxisTemp/edmugrip_temp';
+#
+ delete edmugrip_traj;
+ let edmugrip_traj = edmugrip feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object201
+#
+ delete onkawcel;
+ restore onkawcel from 'TaxisTemp/onkawcel_temp';
+#
+ delete onkawcel_traj;
+ let onkawcel_traj = onkawcel feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object202
+#
+ delete imhacy;
+ restore imhacy from 'TaxisTemp/imhacy_temp';
+#
+ delete imhacy_traj;
+ let imhacy_traj = imhacy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object203
+#
+ delete oggluv;
+ restore oggluv from 'TaxisTemp/oggluv_temp';
+#
+ delete oggluv_traj;
+ let oggluv_traj = oggluv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object204
+#
+ delete udguic;
+ restore udguic from 'TaxisTemp/udguic_temp';
+#
+ delete udguic_traj;
+ let udguic_traj = udguic feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object205
+#
+ delete ecforj;
+ restore ecforj from 'TaxisTemp/ecforj_temp';
+#
+ delete ecforj_traj;
+ let ecforj_traj = ecforj feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object206
+#
+ delete obacvau;
+ restore obacvau from 'TaxisTemp/obacvau_temp';
+#
+ delete obacvau_traj;
+ let obacvau_traj = obacvau feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object207
+#
+ delete ispawwye;
+ restore ispawwye from 'TaxisTemp/ispawwye_temp';
+#
+ delete ispawwye_traj;
+ let ispawwye_traj = ispawwye feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object208
+#
+ delete iafbagci;
+ restore iafbagci from 'TaxisTemp/iafbagci_temp';
+#
+ delete iafbagci_traj;
+ let iafbagci_traj = iafbagci feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object209
+#
+ delete okchympy;
+ restore okchympy from 'TaxisTemp/okchympy_temp';
+#
+ delete okchympy_traj;
+ let okchympy_traj = okchympy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object210
+#
+ delete acitva;
+ restore acitva from 'TaxisTemp/acitva_temp';
+#
+ delete acitva_traj;
+ let acitva_traj = acitva feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object211
+#
+ delete efonve;
+ restore efonve from 'TaxisTemp/efonve_temp';
+#
+ delete efonve_traj;
+ let efonve_traj = efonve feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object212
+#
+ delete eoivqued;
+ restore eoivqued from 'TaxisTemp/eoivqued_temp';
+#
+ delete eoivqued_traj;
+ let eoivqued_traj = eoivqued feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object213
+#
+ delete amwibs;
+ restore amwibs from 'TaxisTemp/amwibs_temp';
+#
+ delete amwibs_traj;
+ let amwibs_traj = amwibs feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object214
+#
+ delete itpivoa;
+ restore itpivoa from 'TaxisTemp/itpivoa_temp';
+#
+ delete itpivoa_traj;
+ let itpivoa_traj = itpivoa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object215
+#
+ delete upchimy;
+ restore upchimy from 'TaxisTemp/upchimy_temp';
+#
+ delete upchimy_traj;
+ let upchimy_traj = upchimy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object216
+#
+ delete erwumu;
+ restore erwumu from 'TaxisTemp/erwumu_temp';
+#
+ delete erwumu_traj;
+ let erwumu_traj = erwumu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object217
+#
+ delete ainplin;
+ restore ainplin from 'TaxisTemp/ainplin_temp';
+#
+ delete ainplin_traj;
+ let ainplin_traj = ainplin feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object218
+#
+ delete ichikiga;
+ restore ichikiga from 'TaxisTemp/ichikiga_temp';
+#
+ delete ichikiga_traj;
+ let ichikiga_traj = ichikiga feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object219
+#
+ delete aysmsla;
+ restore aysmsla from 'TaxisTemp/aysmsla_temp';
+#
+ delete aysmsla_traj;
+ let aysmsla_traj = aysmsla feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object220
+#
+ delete agsuec;
+ restore agsuec from 'TaxisTemp/agsuec_temp';
+#
+ delete agsuec_traj;
+ let agsuec_traj = agsuec feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object221
+#
+ delete irjfen;
+ restore irjfen from 'TaxisTemp/irjfen_temp';
+#
+ delete irjfen_traj;
+ let irjfen_traj = irjfen feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object222
+#
+ delete unwrain;
+ restore unwrain from 'TaxisTemp/unwrain_temp';
+#
+ delete unwrain_traj;
+ let unwrain_traj = unwrain feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object223
+#
+ delete ibpijda;
+ restore ibpijda from 'TaxisTemp/ibpijda_temp';
+#
+ delete ibpijda_traj;
+ let ibpijda_traj = ibpijda feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object224
+#
+ delete ailbcuv;
+ restore ailbcuv from 'TaxisTemp/ailbcuv_temp';
+#
+ delete ailbcuv_traj;
+ let ailbcuv_traj = ailbcuv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object225
+#
+ delete ioivkn;
+ restore ioivkn from 'TaxisTemp/ioivkn_temp';
+#
+ delete ioivkn_traj;
+ let ioivkn_traj = ioivkn feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object226
+#
+ delete idvowwed;
+ restore idvowwed from 'TaxisTemp/idvowwed_temp';
+#
+ delete idvowwed_traj;
+ let idvowwed_traj = idvowwed feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object227
+#
+ delete elwesnn;
+ restore elwesnn from 'TaxisTemp/elwesnn_temp';
+#
+ delete elwesnn_traj;
+ let elwesnn_traj = elwesnn feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object228
+#
+ delete idjokva;
+ restore idjokva from 'TaxisTemp/idjokva_temp';
+#
+ delete idjokva_traj;
+ let idjokva_traj = idjokva feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object229
+#
+ delete iapberci;
+ restore iapberci from 'TaxisTemp/iapberci_temp';
+#
+ delete iapberci_traj;
+ let iapberci_traj = iapberci feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object230
+#
+ delete avdyab;
+ restore avdyab from 'TaxisTemp/avdyab_temp';
+#
+ delete avdyab_traj;
+ let avdyab_traj = avdyab feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object231
+#
+ delete edgrat;
+ restore edgrat from 'TaxisTemp/edgrat_temp';
+#
+ delete edgrat_traj;
+ let edgrat_traj = edgrat feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object232
+#
+ delete obsimjio;
+ restore obsimjio from 'TaxisTemp/obsimjio_temp';
+#
+ delete obsimjio_traj;
+ let obsimjio_traj = obsimjio feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object233
+#
+ delete oblyaga;
+ restore oblyaga from 'TaxisTemp/oblyaga_temp';
+#
+ delete oblyaga_traj;
+ let oblyaga_traj = oblyaga feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object234
+#
+ delete udtiogi;
+ restore udtiogi from 'TaxisTemp/udtiogi_temp';
+#
+ delete udtiogi_traj;
+ let udtiogi_traj = udtiogi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object235
+#
+ delete ecgojtyt;
+ restore ecgojtyt from 'TaxisTemp/ecgojtyt_temp';
+#
+ delete ecgojtyt_traj;
+ let ecgojtyt_traj = ecgojtyt feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object236
+#
+ delete eiboidne;
+ restore eiboidne from 'TaxisTemp/eiboidne_temp';
+#
+ delete eiboidne_traj;
+ let eiboidne_traj = eiboidne feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object237
+#
+ delete abyalwif;
+ restore abyalwif from 'TaxisTemp/abyalwif_temp';
+#
+ delete abyalwif_traj;
+ let abyalwif_traj = abyalwif feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object238
+#
+ delete uvjeahot;
+ restore uvjeahot from 'TaxisTemp/uvjeahot_temp';
+#
+ delete uvjeahot_traj;
+ let uvjeahot_traj = uvjeahot feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object239
+#
+ delete ogdygdyd;
+ restore ogdygdyd from 'TaxisTemp/ogdygdyd_temp';
+#
+ delete ogdygdyd_traj;
+ let ogdygdyd_traj = ogdygdyd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object240
+#
+ delete uvigcho;
+ restore uvigcho from 'TaxisTemp/uvigcho_temp';
+#
+ delete uvigcho_traj;
+ let uvigcho_traj = uvigcho feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object241
+#
+ delete ockihoba;
+ restore ockihoba from 'TaxisTemp/ockihoba_temp';
+#
+ delete ockihoba_traj;
+ let ockihoba_traj = ockihoba feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object242
+#
+ delete eersdo;
+ restore eersdo from 'TaxisTemp/eersdo_temp';
+#
+ delete eersdo_traj;
+ let eersdo_traj = eersdo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object243
+#
+ delete eybmij;
+ restore eybmij from 'TaxisTemp/eybmij_temp';
+#
+ delete eybmij_traj;
+ let eybmij_traj = eybmij feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object244
+#
+ delete ifanfadd;
+ restore ifanfadd from 'TaxisTemp/ifanfadd_temp';
+#
+ delete ifanfadd_traj;
+ let ifanfadd_traj = ifanfadd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object245
+#
+ delete ojfequia;
+ restore ojfequia from 'TaxisTemp/ojfequia_temp';
+#
+ delete ojfequia_traj;
+ let ojfequia_traj = ojfequia feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object246
+#
+ delete ickviya;
+ restore ickviya from 'TaxisTemp/ickviya_temp';
+#
+ delete ickviya_traj;
+ let ickviya_traj = ickviya feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object247
+#
+ delete orptme;
+ restore orptme from 'TaxisTemp/orptme_temp';
+#
+ delete orptme_traj;
+ let orptme_traj = orptme feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object248
+#
+ delete iodjiesh;
+ restore iodjiesh from 'TaxisTemp/iodjiesh_temp';
+#
+ delete iodjiesh_traj;
+ let iodjiesh_traj = iodjiesh feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object249
+#
+ delete abdremlu;
+ restore abdremlu from 'TaxisTemp/abdremlu_temp';
+#
+ delete abdremlu_traj;
+ let abdremlu_traj = abdremlu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object250
+#
+ delete anupwr;
+ restore anupwr from 'TaxisTemp/anupwr_temp';
+#
+ delete anupwr_traj;
+ let anupwr_traj = anupwr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object251
+#
+ delete ijpiawl;
+ restore ijpiawl from 'TaxisTemp/ijpiawl_temp';
+#
+ delete ijpiawl_traj;
+ let ijpiawl_traj = ijpiawl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object252
+#
+ delete eicmynts;
+ restore eicmynts from 'TaxisTemp/eicmynts_temp';
+#
+ delete eicmynts_traj;
+ let eicmynts_traj = eicmynts feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object253
+#
+ delete evjoko;
+ restore evjoko from 'TaxisTemp/evjoko_temp';
+#
+ delete evjoko_traj;
+ let evjoko_traj = evjoko feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object254
+#
+ delete aivtytan;
+ restore aivtytan from 'TaxisTemp/aivtytan_temp';
+#
+ delete aivtytan_traj;
+ let aivtytan_traj = aivtytan feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object255
+#
+ delete epemvagu;
+ restore epemvagu from 'TaxisTemp/epemvagu_temp';
+#
+ delete epemvagu_traj;
+ let epemvagu_traj = epemvagu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object256
+#
+ delete arlwras;
+ restore arlwras from 'TaxisTemp/arlwras_temp';
+#
+ delete arlwras_traj;
+ let arlwras_traj = arlwras feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object257
+#
+ delete ijdeyd;
+ restore ijdeyd from 'TaxisTemp/ijdeyd_temp';
+#
+ delete ijdeyd_traj;
+ let ijdeyd_traj = ijdeyd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object258
+#
+ delete eydadgio;
+ restore eydadgio from 'TaxisTemp/eydadgio_temp';
+#
+ delete eydadgio_traj;
+ let eydadgio_traj = eydadgio feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object259
+#
+ delete ekfrab;
+ restore ekfrab from 'TaxisTemp/ekfrab_temp';
+#
+ delete ekfrab_traj;
+ let ekfrab_traj = ekfrab feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object260
+#
+ delete icedpa;
+ restore icedpa from 'TaxisTemp/icedpa_temp';
+#
+ delete icedpa_traj;
+ let icedpa_traj = icedpa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object261
+#
+ delete eybyay;
+ restore eybyay from 'TaxisTemp/eybyay_temp';
+#
+ delete eybyay_traj;
+ let eybyay_traj = eybyay feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object262
+#
+ delete iafstnue;
+ restore iafstnue from 'TaxisTemp/iafstnue_temp';
+#
+ delete iafstnue_traj;
+ let iafstnue_traj = iafstnue feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object263
+#
+ delete ubgihoot;
+ restore ubgihoot from 'TaxisTemp/ubgihoot_temp';
+#
+ delete ubgihoot_traj;
+ let ubgihoot_traj = ubgihoot feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object264
+#
+ delete ioytgor;
+ restore ioytgor from 'TaxisTemp/ioytgor_temp';
+#
+ delete ioytgor_traj;
+ let ioytgor_traj = ioytgor feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object265
+#
+ delete ashgati;
+ restore ashgati from 'TaxisTemp/ashgati_temp';
+#
+ delete ashgati_traj;
+ let ashgati_traj = ashgati feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object266
+#
+ delete oncixpi;
+ restore oncixpi from 'TaxisTemp/oncixpi_temp';
+#
+ delete oncixpi_traj;
+ let oncixpi_traj = oncixpi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object267
+#
+ delete aitpygg;
+ restore aitpygg from 'TaxisTemp/aitpygg_temp';
+#
+ delete aitpygg_traj;
+ let aitpygg_traj = aitpygg feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object268
+#
+ delete ogurjupo;
+ restore ogurjupo from 'TaxisTemp/ogurjupo_temp';
+#
+ delete ogurjupo_traj;
+ let ogurjupo_traj = ogurjupo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object269
+#
+ delete oasthul;
+ restore oasthul from 'TaxisTemp/oasthul_temp';
+#
+ delete oasthul_traj;
+ let oasthul_traj = oasthul feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object270
+#
+ delete ifeshce;
+ restore ifeshce from 'TaxisTemp/ifeshce_temp';
+#
+ delete ifeshce_traj;
+ let ifeshce_traj = ifeshce feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object271
+#
+ delete awnbeb;
+ restore awnbeb from 'TaxisTemp/awnbeb_temp';
+#
+ delete awnbeb_traj;
+ let awnbeb_traj = awnbeb feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object272
+#
+ delete ajsnedsi;
+ restore ajsnedsi from 'TaxisTemp/ajsnedsi_temp';
+#
+ delete ajsnedsi_traj;
+ let ajsnedsi_traj = ajsnedsi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object273
+#
+ delete inquay;
+ restore inquay from 'TaxisTemp/inquay_temp';
+#
+ delete inquay_traj;
+ let inquay_traj = inquay feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object274
+#
+ delete ilcoby;
+ restore ilcoby from 'TaxisTemp/ilcoby_temp';
+#
+ delete ilcoby_traj;
+ let ilcoby_traj = ilcoby feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object275
+#
+ delete ithpett;
+ restore ithpett from 'TaxisTemp/ithpett_temp';
+#
+ delete ithpett_traj;
+ let ithpett_traj = ithpett feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object276
+#
+ delete opnown;
+ restore opnown from 'TaxisTemp/opnown_temp';
+#
+ delete opnown_traj;
+ let opnown_traj = opnown feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object277
+#
+ delete orkbats;
+ restore orkbats from 'TaxisTemp/orkbats_temp';
+#
+ delete orkbats_traj;
+ let orkbats_traj = orkbats feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object278
+#
+ delete epabcadu;
+ restore epabcadu from 'TaxisTemp/epabcadu_temp';
+#
+ delete epabcadu_traj;
+ let epabcadu_traj = epabcadu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object279
+#
+ delete udveoyx;
+ restore udveoyx from 'TaxisTemp/udveoyx_temp';
+#
+ delete udveoyx_traj;
+ let udveoyx_traj = udveoyx feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object280
+#
+ delete oilrag;
+ restore oilrag from 'TaxisTemp/oilrag_temp';
+#
+ delete oilrag_traj;
+ let oilrag_traj = oilrag feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object281
+#
+ delete otasfier;
+ restore otasfier from 'TaxisTemp/otasfier_temp';
+#
+ delete otasfier_traj;
+ let otasfier_traj = otasfier feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object282
+#
+ delete arcksy;
+ restore arcksy from 'TaxisTemp/arcksy_temp';
+#
+ delete arcksy_traj;
+ let arcksy_traj = arcksy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object283
+#
+ delete uchjafy;
+ restore uchjafy from 'TaxisTemp/uchjafy_temp';
+#
+ delete uchjafy_traj;
+ let uchjafy_traj = uchjafy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object284
+#
+ delete ancedvab;
+ restore ancedvab from 'TaxisTemp/ancedvab_temp';
+#
+ delete ancedvab_traj;
+ let ancedvab_traj = ancedvab feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object285
+#
+ delete ickphiwa;
+ restore ickphiwa from 'TaxisTemp/ickphiwa_temp';
+#
+ delete ickphiwa_traj;
+ let ickphiwa_traj = ickphiwa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object286
+#
+ delete andyol;
+ restore andyol from 'TaxisTemp/andyol_temp';
+#
+ delete andyol_traj;
+ let andyol_traj = andyol feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object287
+#
+ delete eryeig;
+ restore eryeig from 'TaxisTemp/eryeig_temp';
+#
+ delete eryeig_traj;
+ let eryeig_traj = eryeig feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object288
+#
+ delete ebenfrag;
+ restore ebenfrag from 'TaxisTemp/ebenfrag_temp';
+#
+ delete ebenfrag_traj;
+ let ebenfrag_traj = ebenfrag feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object289
+#
+ delete acduou;
+ restore acduou from 'TaxisTemp/acduou_temp';
+#
+ delete acduou_traj;
+ let acduou_traj = acduou feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object290
+#
+ delete enkkand;
+ restore enkkand from 'TaxisTemp/enkkand_temp';
+#
+ delete enkkand_traj;
+ let enkkand_traj = enkkand feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object291
+#
+ delete edomboys;
+ restore edomboys from 'TaxisTemp/edomboys_temp';
+#
+ delete edomboys_traj;
+ let edomboys_traj = edomboys feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object292
+#
+ delete asigno;
+ restore asigno from 'TaxisTemp/asigno_temp';
+#
+ delete asigno_traj;
+ let asigno_traj = asigno feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object293
+#
+ delete ejtobu;
+ restore ejtobu from 'TaxisTemp/ejtobu_temp';
+#
+ delete ejtobu_traj;
+ let ejtobu_traj = ejtobu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object294
+#
+ delete odocjeca;
+ restore odocjeca from 'TaxisTemp/odocjeca_temp';
+#
+ delete odocjeca_traj;
+ let odocjeca_traj = odocjeca feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object295
+#
+ delete eavcaifo;
+ restore eavcaifo from 'TaxisTemp/eavcaifo_temp';
+#
+ delete eavcaifo_traj;
+ let eavcaifo_traj = eavcaifo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object296
+#
+ delete evfler;
+ restore evfler from 'TaxisTemp/evfler_temp';
+#
+ delete evfler_traj;
+ let evfler_traj = evfler feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object297
+#
+ delete odlorhem;
+ restore odlorhem from 'TaxisTemp/odlorhem_temp';
+#
+ delete odlorhem_traj;
+ let odlorhem_traj = odlorhem feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object298
+#
+ delete adpaifo;
+ restore adpaifo from 'TaxisTemp/adpaifo_temp';
+#
+ delete adpaifo_traj;
+ let adpaifo_traj = adpaifo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object299
+#
+ delete equoaw;
+ restore equoaw from 'TaxisTemp/equoaw_temp';
+#
+ delete equoaw_traj;
+ let equoaw_traj = equoaw feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object300
+#
+ delete ushfeoj;
+ restore ushfeoj from 'TaxisTemp/ushfeoj_temp';
+#
+ delete ushfeoj_traj;
+ let ushfeoj_traj = ushfeoj feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object301
+#
+ delete eedigkr;
+ restore eedigkr from 'TaxisTemp/eedigkr_temp';
+#
+ delete eedigkr_traj;
+ let eedigkr_traj = eedigkr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object302
+#
+ delete aldhidd;
+ restore aldhidd from 'TaxisTemp/aldhidd_temp';
+#
+ delete aldhidd_traj;
+ let aldhidd_traj = aldhidd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object303
+#
+ delete ochotcil;
+ restore ochotcil from 'TaxisTemp/ochotcil_temp';
+#
+ delete ochotcil_traj;
+ let ochotcil_traj = ochotcil feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object304
+#
+ delete oyclsdas;
+ restore oyclsdas from 'TaxisTemp/oyclsdas_temp';
+#
+ delete oyclsdas_traj;
+ let oyclsdas_traj = oyclsdas feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object305
+#
+ delete icdaheos;
+ restore icdaheos from 'TaxisTemp/icdaheos_temp';
+#
+ delete icdaheos_traj;
+ let icdaheos_traj = icdaheos feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object306
+#
+ delete ektuyo;
+ restore ektuyo from 'TaxisTemp/ektuyo_temp';
+#
+ delete ektuyo_traj;
+ let ektuyo_traj = ektuyo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object307
+#
+ delete ophugbe;
+ restore ophugbe from 'TaxisTemp/ophugbe_temp';
+#
+ delete ophugbe_traj;
+ let ophugbe_traj = ophugbe feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object308
+#
+ delete obheujvo;
+ restore obheujvo from 'TaxisTemp/obheujvo_temp';
+#
+ delete obheujvo_traj;
+ let obheujvo_traj = obheujvo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object309
+#
+ delete amnurgji;
+ restore amnurgji from 'TaxisTemp/amnurgji_temp';
+#
+ delete amnurgji_traj;
+ let amnurgji_traj = amnurgji feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object310
+#
+ delete aniajcr;
+ restore aniajcr from 'TaxisTemp/aniajcr_temp';
+#
+ delete aniajcr_traj;
+ let aniajcr_traj = aniajcr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object311
+#
+ delete itquirla;
+ restore itquirla from 'TaxisTemp/itquirla_temp';
+#
+ delete itquirla_traj;
+ let itquirla_traj = itquirla feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object312
+#
+ delete idcadgi;
+ restore idcadgi from 'TaxisTemp/idcadgi_temp';
+#
+ delete idcadgi_traj;
+ let idcadgi_traj = idcadgi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object313
+#
+ delete upsjavci;
+ restore upsjavci from 'TaxisTemp/upsjavci_temp';
+#
+ delete upsjavci_traj;
+ let upsjavci_traj = upsjavci feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object314
+#
+ delete odklobci;
+ restore odklobci from 'TaxisTemp/odklobci_temp';
+#
+ delete odklobci_traj;
+ let odklobci_traj = odklobci feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object315
+#
+ delete ojumna;
+ restore ojumna from 'TaxisTemp/ojumna_temp';
+#
+ delete ojumna_traj;
+ let ojumna_traj = ojumna feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object316
+#
+ delete ujtosh;
+ restore ujtosh from 'TaxisTemp/ujtosh_temp';
+#
+ delete ujtosh_traj;
+ let ujtosh_traj = ujtosh feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object317
+#
+ delete ojfanni;
+ restore ojfanni from 'TaxisTemp/ojfanni_temp';
+#
+ delete ojfanni_traj;
+ let ojfanni_traj = ojfanni feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object318
+#
+ delete inhiala;
+ restore inhiala from 'TaxisTemp/inhiala_temp';
+#
+ delete inhiala_traj;
+ let inhiala_traj = inhiala feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object319
+#
+ delete edrafs;
+ restore edrafs from 'TaxisTemp/edrafs_temp';
+#
+ delete edrafs_traj;
+ let edrafs_traj = edrafs feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object320
+#
+ delete egoiwroi;
+ restore egoiwroi from 'TaxisTemp/egoiwroi_temp';
+#
+ delete egoiwroi_traj;
+ let egoiwroi_traj = egoiwroi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object321
+#
+ delete icwiroic;
+ restore icwiroic from 'TaxisTemp/icwiroic_temp';
+#
+ delete icwiroic_traj;
+ let icwiroic_traj = icwiroic feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object322
+#
+ delete icagpony;
+ restore icagpony from 'TaxisTemp/icagpony_temp';
+#
+ delete icagpony_traj;
+ let icagpony_traj = icagpony feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object323
+#
+ delete iovhar;
+ restore iovhar from 'TaxisTemp/iovhar_temp';
+#
+ delete iovhar_traj;
+ let iovhar_traj = iovhar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object324
+#
+ delete ishvirv;
+ restore ishvirv from 'TaxisTemp/ishvirv_temp';
+#
+ delete ishvirv_traj;
+ let ishvirv_traj = ishvirv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object325
+#
+ delete arcuim;
+ restore arcuim from 'TaxisTemp/arcuim_temp';
+#
+ delete arcuim_traj;
+ let arcuim_traj = arcuim feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object326
+#
+ delete aquawaw;
+ restore aquawaw from 'TaxisTemp/aquawaw_temp';
+#
+ delete aquawaw_traj;
+ let aquawaw_traj = aquawaw feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object327
+#
+ delete umvohug;
+ restore umvohug from 'TaxisTemp/umvohug_temp';
+#
+ delete umvohug_traj;
+ let umvohug_traj = umvohug feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object328
+#
+ delete abboip;
+ restore abboip from 'TaxisTemp/abboip_temp';
+#
+ delete abboip_traj;
+ let abboip_traj = abboip feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object329
+#
+ delete uttorhig;
+ restore uttorhig from 'TaxisTemp/uttorhig_temp';
+#
+ delete uttorhig_traj;
+ let uttorhig_traj = uttorhig feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object330
+#
+ delete abniar;
+ restore abniar from 'TaxisTemp/abniar_temp';
+#
+ delete abniar_traj;
+ let abniar_traj = abniar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object331
+#
+ delete agcowktu;
+ restore agcowktu from 'TaxisTemp/agcowktu_temp';
+#
+ delete agcowktu_traj;
+ let agcowktu_traj = agcowktu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object332
+#
+ delete omcuky;
+ restore omcuky from 'TaxisTemp/omcuky_temp';
+#
+ delete omcuky_traj;
+ let omcuky_traj = omcuky feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object333
+#
+ delete udwiull;
+ restore udwiull from 'TaxisTemp/udwiull_temp';
+#
+ delete udwiull_traj;
+ let udwiull_traj = udwiull feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object334
+#
+ delete utjanre;
+ restore utjanre from 'TaxisTemp/utjanre_temp';
+#
+ delete utjanre_traj;
+ let utjanre_traj = utjanre feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object335
+#
+ delete iagods;
+ restore iagods from 'TaxisTemp/iagods_temp';
+#
+ delete iagods_traj;
+ let iagods_traj = iagods feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object336
+#
+ delete ibflsruc;
+ restore ibflsruc from 'TaxisTemp/ibflsruc_temp';
+#
+ delete ibflsruc_traj;
+ let ibflsruc_traj = ibflsruc feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object337
+#
+ delete avpavi;
+ restore avpavi from 'TaxisTemp/avpavi_temp';
+#
+ delete avpavi_traj;
+ let avpavi_traj = avpavi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object338
+#
+ delete aswift;
+ restore aswift from 'TaxisTemp/aswift_temp';
+#
+ delete aswift_traj;
+ let aswift_traj = aswift feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object339
+#
+ delete utvohovy;
+ restore utvohovy from 'TaxisTemp/utvohovy_temp';
+#
+ delete utvohovy_traj;
+ let utvohovy_traj = utvohovy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object340
+#
+ delete idjojwa;
+ restore idjojwa from 'TaxisTemp/idjojwa_temp';
+#
+ delete idjojwa_traj;
+ let idjojwa_traj = idjojwa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object341
+#
+ delete ufdoyno;
+ restore ufdoyno from 'TaxisTemp/ufdoyno_temp';
+#
+ delete ufdoyno_traj;
+ let ufdoyno_traj = ufdoyno feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object342
+#
+ delete aichash;
+ restore aichash from 'TaxisTemp/aichash_temp';
+#
+ delete aichash_traj;
+ let aichash_traj = aichash feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object343
+#
+ delete ocwyit;
+ restore ocwyit from 'TaxisTemp/ocwyit_temp';
+#
+ delete ocwyit_traj;
+ let ocwyit_traj = ocwyit feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object344
+#
+ delete oadwowd;
+ restore oadwowd from 'TaxisTemp/oadwowd_temp';
+#
+ delete oadwowd_traj;
+ let oadwowd_traj = oadwowd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object345
+#
+ delete imoikcha;
+ restore imoikcha from 'TaxisTemp/imoikcha_temp';
+#
+ delete imoikcha_traj;
+ let imoikcha_traj = imoikcha feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object346
+#
+ delete opjermp;
+ restore opjermp from 'TaxisTemp/opjermp_temp';
+#
+ delete opjermp_traj;
+ let opjermp_traj = opjermp feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object347
+#
+ delete abcoij;
+ restore abcoij from 'TaxisTemp/abcoij_temp';
+#
+ delete abcoij_traj;
+ let abcoij_traj = abcoij feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object348
+#
+ delete osoccef;
+ restore osoccef from 'TaxisTemp/osoccef_temp';
+#
+ delete osoccef_traj;
+ let osoccef_traj = osoccef feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object349
+#
+ delete efgoaku;
+ restore efgoaku from 'TaxisTemp/efgoaku_temp';
+#
+ delete efgoaku_traj;
+ let efgoaku_traj = efgoaku feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object350
+#
+ delete objoyhi;
+ restore objoyhi from 'TaxisTemp/objoyhi_temp';
+#
+ delete objoyhi_traj;
+ let objoyhi_traj = objoyhi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object351
+#
+ delete iodlac;
+ restore iodlac from 'TaxisTemp/iodlac_temp';
+#
+ delete iodlac_traj;
+ let iodlac_traj = iodlac feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object352
+#
+ delete idbaybim;
+ restore idbaybim from 'TaxisTemp/idbaybim_temp';
+#
+ delete idbaybim_traj;
+ let idbaybim_traj = idbaybim feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object353
+#
+ delete idshywr;
+ restore idshywr from 'TaxisTemp/idshywr_temp';
+#
+ delete idshywr_traj;
+ let idshywr_traj = idshywr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object354
+#
+ delete onvahe;
+ restore onvahe from 'TaxisTemp/onvahe_temp';
+#
+ delete onvahe_traj;
+ let onvahe_traj = onvahe feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object355
+#
+ delete ucbiyaym;
+ restore ucbiyaym from 'TaxisTemp/ucbiyaym_temp';
+#
+ delete ucbiyaym_traj;
+ let ucbiyaym_traj = ucbiyaym feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object356
+#
+ delete ijtowhur;
+ restore ijtowhur from 'TaxisTemp/ijtowhur_temp';
+#
+ delete ijtowhur_traj;
+ let ijtowhur_traj = ijtowhur feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object357
+#
+ delete eincufpy;
+ restore eincufpy from 'TaxisTemp/eincufpy_temp';
+#
+ delete eincufpy_traj;
+ let eincufpy_traj = eincufpy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object358
+#
+ delete ogijtri;
+ restore ogijtri from 'TaxisTemp/ogijtri_temp';
+#
+ delete ogijtri_traj;
+ let ogijtri_traj = ogijtri feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object359
+#
+ delete eshroa;
+ restore eshroa from 'TaxisTemp/eshroa_temp';
+#
+ delete eshroa_traj;
+ let eshroa_traj = eshroa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object360
+#
+ delete uthiss;
+ restore uthiss from 'TaxisTemp/uthiss_temp';
+#
+ delete uthiss_traj;
+ let uthiss_traj = uthiss feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object361
+#
+ delete iorjtwav;
+ restore iorjtwav from 'TaxisTemp/iorjtwav_temp';
+#
+ delete iorjtwav_traj;
+ let iorjtwav_traj = iorjtwav feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object362
+#
+ delete eokracy;
+ restore eokracy from 'TaxisTemp/eokracy_temp';
+#
+ delete eokracy_traj;
+ let eokracy_traj = eokracy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object363
+#
+ delete epkiapme;
+ restore epkiapme from 'TaxisTemp/epkiapme_temp';
+#
+ delete epkiapme_traj;
+ let epkiapme_traj = epkiapme feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object364
+#
+ delete unquekov;
+ restore unquekov from 'TaxisTemp/unquekov_temp';
+#
+ delete unquekov_traj;
+ let unquekov_traj = unquekov feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object365
+#
+ delete ayshowg;
+ restore ayshowg from 'TaxisTemp/ayshowg_temp';
+#
+ delete ayshowg_traj;
+ let ayshowg_traj = ayshowg feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object366
+#
+ delete eolgug;
+ restore eolgug from 'TaxisTemp/eolgug_temp';
+#
+ delete eolgug_traj;
+ let eolgug_traj = eolgug feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object367
+#
+ delete egnatab;
+ restore egnatab from 'TaxisTemp/egnatab_temp';
+#
+ delete egnatab_traj;
+ let egnatab_traj = egnatab feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object368
+#
+ delete eitpem;
+ restore eitpem from 'TaxisTemp/eitpem_temp';
+#
+ delete eitpem_traj;
+ let eitpem_traj = eitpem feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object369
+#
+ delete oowfmu;
+ restore oowfmu from 'TaxisTemp/oowfmu_temp';
+#
+ delete oowfmu_traj;
+ let oowfmu_traj = oowfmu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object370
+#
+ delete owgves;
+ restore owgves from 'TaxisTemp/owgves_temp';
+#
+ delete owgves_traj;
+ let owgves_traj = owgves feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object371
+#
+ delete ugifmav;
+ restore ugifmav from 'TaxisTemp/ugifmav_temp';
+#
+ delete ugifmav_traj;
+ let ugifmav_traj = ugifmav feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object372
+#
+ delete effneomi;
+ restore effneomi from 'TaxisTemp/effneomi_temp';
+#
+ delete effneomi_traj;
+ let effneomi_traj = effneomi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object373
+#
+ delete ockoac;
+ restore ockoac from 'TaxisTemp/ockoac_temp';
+#
+ delete ockoac_traj;
+ let ockoac_traj = ockoac feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object374
+#
+ delete imwrytsy;
+ restore imwrytsy from 'TaxisTemp/imwrytsy_temp';
+#
+ delete imwrytsy_traj;
+ let imwrytsy_traj = imwrytsy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object375
+#
+ delete ogikligu;
+ restore ogikligu from 'TaxisTemp/ogikligu_temp';
+#
+ delete ogikligu_traj;
+ let ogikligu_traj = ogikligu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object376
+#
+ delete elhuyoi;
+ restore elhuyoi from 'TaxisTemp/elhuyoi_temp';
+#
+ delete elhuyoi_traj;
+ let elhuyoi_traj = elhuyoi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object377
+#
+ delete iaggrijo;
+ restore iaggrijo from 'TaxisTemp/iaggrijo_temp';
+#
+ delete iaggrijo_traj;
+ let iaggrijo_traj = iaggrijo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object378
+#
+ delete umsmtha;
+ restore umsmtha from 'TaxisTemp/umsmtha_temp';
+#
+ delete umsmtha_traj;
+ let umsmtha_traj = umsmtha feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object379
+#
+ delete ebstic;
+ restore ebstic from 'TaxisTemp/ebstic_temp';
+#
+ delete ebstic_traj;
+ let ebstic_traj = ebstic feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object380
+#
+ delete askmecle;
+ restore askmecle from 'TaxisTemp/askmecle_temp';
+#
+ delete askmecle_traj;
+ let askmecle_traj = askmecle feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object381
+#
+ delete indtwrat;
+ restore indtwrat from 'TaxisTemp/indtwrat_temp';
+#
+ delete indtwrat_traj;
+ let indtwrat_traj = indtwrat feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object382
+#
+ delete occroksy;
+ restore occroksy from 'TaxisTemp/occroksy_temp';
+#
+ delete occroksy_traj;
+ let occroksy_traj = occroksy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object383
+#
+ delete apigcyd;
+ restore apigcyd from 'TaxisTemp/apigcyd_temp';
+#
+ delete apigcyd_traj;
+ let apigcyd_traj = apigcyd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object384
+#
+ delete ojpoota;
+ restore ojpoota from 'TaxisTemp/ojpoota_temp';
+#
+ delete ojpoota_traj;
+ let ojpoota_traj = ojpoota feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object385
+#
+ delete ovyijna;
+ restore ovyijna from 'TaxisTemp/ovyijna_temp';
+#
+ delete ovyijna_traj;
+ let ovyijna_traj = ovyijna feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object386
+#
+ delete ofjeequo;
+ restore ofjeequo from 'TaxisTemp/ofjeequo_temp';
+#
+ delete ofjeequo_traj;
+ let ofjeequo_traj = ofjeequo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object387
+#
+ delete odscixam;
+ restore odscixam from 'TaxisTemp/odscixam_temp';
+#
+ delete odscixam_traj;
+ let odscixam_traj = odscixam feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object388
+#
+ delete ogphagpi;
+ restore ogphagpi from 'TaxisTemp/ogphagpi_temp';
+#
+ delete ogphagpi_traj;
+ let ogphagpi_traj = ogphagpi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object389
+#
+ delete awribig;
+ restore awribig from 'TaxisTemp/awribig_temp';
+#
+ delete awribig_traj;
+ let awribig_traj = awribig feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object390
+#
+ delete elbnaxa;
+ restore elbnaxa from 'TaxisTemp/elbnaxa_temp';
+#
+ delete elbnaxa_traj;
+ let elbnaxa_traj = elbnaxa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object391
+#
+ delete ancorjo;
+ restore ancorjo from 'TaxisTemp/ancorjo_temp';
+#
+ delete ancorjo_traj;
+ let ancorjo_traj = ancorjo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object392
+#
+ delete amciuca;
+ restore amciuca from 'TaxisTemp/amciuca_temp';
+#
+ delete amciuca_traj;
+ let amciuca_traj = amciuca feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object393
+#
+ delete eoccoirv;
+ restore eoccoirv from 'TaxisTemp/eoccoirv_temp';
+#
+ delete eoccoirv_traj;
+ let eoccoirv_traj = eoccoirv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object394
+#
+ delete eccest;
+ restore eccest from 'TaxisTemp/eccest_temp';
+#
+ delete eccest_traj;
+ let eccest_traj = eccest feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object395
+#
+ delete arphaud;
+ restore arphaud from 'TaxisTemp/arphaud_temp';
+#
+ delete arphaud_traj;
+ let arphaud_traj = arphaud feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object396
+#
+ delete ajsips;
+ restore ajsips from 'TaxisTemp/ajsips_temp';
+#
+ delete ajsips_traj;
+ let ajsips_traj = ajsips feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object397
+#
+ delete inckkiv;
+ restore inckkiv from 'TaxisTemp/inckkiv_temp';
+#
+ delete inckkiv_traj;
+ let inckkiv_traj = inckkiv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object398
+#
+ delete afsfat;
+ restore afsfat from 'TaxisTemp/afsfat_temp';
+#
+ delete afsfat_traj;
+ let afsfat_traj = afsfat feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object399
+#
+ delete amvefarl;
+ restore amvefarl from 'TaxisTemp/amvefarl_temp';
+#
+ delete amvefarl_traj;
+ let amvefarl_traj = amvefarl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object400
+#
+ delete onwohyss;
+ restore onwohyss from 'TaxisTemp/onwohyss_temp';
+#
+ delete onwohyss_traj;
+ let onwohyss_traj = onwohyss feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object401
+#
+ delete abnovkak;
+ restore abnovkak from 'TaxisTemp/abnovkak_temp';
+#
+ delete abnovkak_traj;
+ let abnovkak_traj = abnovkak feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object402
+#
+ delete ogjoch;
+ restore ogjoch from 'TaxisTemp/ogjoch_temp';
+#
+ delete ogjoch_traj;
+ let ogjoch_traj = ogjoch feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object403
+#
+ delete evtitdea;
+ restore evtitdea from 'TaxisTemp/evtitdea_temp';
+#
+ delete evtitdea_traj;
+ let evtitdea_traj = evtitdea feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object404
+#
+ delete erjcrey;
+ restore erjcrey from 'TaxisTemp/erjcrey_temp';
+#
+ delete erjcrey_traj;
+ let erjcrey_traj = erjcrey feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object405
+#
+ delete eesbaj;
+ restore eesbaj from 'TaxisTemp/eesbaj_temp';
+#
+ delete eesbaj_traj;
+ let eesbaj_traj = eesbaj feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object406
+#
+ delete iacbyb;
+ restore iacbyb from 'TaxisTemp/iacbyb_temp';
+#
+ delete iacbyb_traj;
+ let iacbyb_traj = iacbyb feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object407
+#
+ delete iotklojy;
+ restore iotklojy from 'TaxisTemp/iotklojy_temp';
+#
+ delete iotklojy_traj;
+ let iotklojy_traj = iotklojy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object408
+#
+ delete akvutvo;
+ restore akvutvo from 'TaxisTemp/akvutvo_temp';
+#
+ delete akvutvo_traj;
+ let akvutvo_traj = akvutvo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object409
+#
+ delete ilkble;
+ restore ilkble from 'TaxisTemp/ilkble_temp';
+#
+ delete ilkble_traj;
+ let ilkble_traj = ilkble feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object410
+#
+ delete avglybic;
+ restore avglybic from 'TaxisTemp/avglybic_temp';
+#
+ delete avglybic_traj;
+ let avglybic_traj = avglybic feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object411
+#
+ delete oksbosfl;
+ restore oksbosfl from 'TaxisTemp/oksbosfl_temp';
+#
+ delete oksbosfl_traj;
+ let oksbosfl_traj = oksbosfl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object412
+#
+ delete elvgid;
+ restore elvgid from 'TaxisTemp/elvgid_temp';
+#
+ delete elvgid_traj;
+ let elvgid_traj = elvgid feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object413
+#
+ delete ojroigna;
+ restore ojroigna from 'TaxisTemp/ojroigna_temp';
+#
+ delete ojroigna_traj;
+ let ojroigna_traj = ojroigna feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object414
+#
+ delete arhilby;
+ restore arhilby from 'TaxisTemp/arhilby_temp';
+#
+ delete arhilby_traj;
+ let arhilby_traj = arhilby feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object415
+#
+ delete aslagni;
+ restore aslagni from 'TaxisTemp/aslagni_temp';
+#
+ delete aslagni_traj;
+ let aslagni_traj = aslagni feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object416
+#
+ delete equioc;
+ restore equioc from 'TaxisTemp/equioc_temp';
+#
+ delete equioc_traj;
+ let equioc_traj = equioc feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object417
+#
+ delete umhenwed;
+ restore umhenwed from 'TaxisTemp/umhenwed_temp';
+#
+ delete umhenwed_traj;
+ let umhenwed_traj = umhenwed feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object418
+#
+ delete ejesbay;
+ restore ejesbay from 'TaxisTemp/ejesbay_temp';
+#
+ delete ejesbay_traj;
+ let ejesbay_traj = ejesbay feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object419
+#
+ delete ebcicy;
+ restore ebcicy from 'TaxisTemp/ebcicy_temp';
+#
+ delete ebcicy_traj;
+ let ebcicy_traj = ebcicy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object420
+#
+ delete ipdioisi;
+ restore ipdioisi from 'TaxisTemp/ipdioisi_temp';
+#
+ delete ipdioisi_traj;
+ let ipdioisi_traj = ipdioisi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object421
+#
+ delete oafhynu;
+ restore oafhynu from 'TaxisTemp/oafhynu_temp';
+#
+ delete oafhynu_traj;
+ let oafhynu_traj = oafhynu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object422
+#
+ delete ejshigib;
+ restore ejshigib from 'TaxisTemp/ejshigib_temp';
+#
+ delete ejshigib_traj;
+ let ejshigib_traj = ejshigib feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object423
+#
+ delete orrrar;
+ restore orrrar from 'TaxisTemp/orrrar_temp';
+#
+ delete orrrar_traj;
+ let orrrar_traj = orrrar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object424
+#
+ delete efghakdi;
+ restore efghakdi from 'TaxisTemp/efghakdi_temp';
+#
+ delete efghakdi_traj;
+ let efghakdi_traj = efghakdi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object425
+#
+ delete agyamker;
+ restore agyamker from 'TaxisTemp/agyamker_temp';
+#
+ delete agyamker_traj;
+ let agyamker_traj = agyamker feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object426
+#
+ delete ioajdig;
+ restore ioajdig from 'TaxisTemp/ioajdig_temp';
+#
+ delete ioajdig_traj;
+ let ioajdig_traj = ioajdig feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object427
+#
+ delete iphespha;
+ restore iphespha from 'TaxisTemp/iphespha_temp';
+#
+ delete iphespha_traj;
+ let iphespha_traj = iphespha feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object428
+#
+ delete evijcey;
+ restore evijcey from 'TaxisTemp/evijcey_temp';
+#
+ delete evijcey_traj;
+ let evijcey_traj = evijcey feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object429
+#
+ delete ajtreo;
+ restore ajtreo from 'TaxisTemp/ajtreo_temp';
+#
+ delete ajtreo_traj;
+ let ajtreo_traj = ajtreo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object430
+#
+ delete utthwaju;
+ restore utthwaju from 'TaxisTemp/utthwaju_temp';
+#
+ delete utthwaju_traj;
+ let utthwaju_traj = utthwaju feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object431
+#
+ delete odoywug;
+ restore odoywug from 'TaxisTemp/odoywug_temp';
+#
+ delete odoywug_traj;
+ let odoywug_traj = odoywug feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object432
+#
+ delete isfikti;
+ restore isfikti from 'TaxisTemp/isfikti_temp';
+#
+ delete isfikti_traj;
+ let isfikti_traj = isfikti feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object433
+#
+ delete owbsuscs;
+ restore owbsuscs from 'TaxisTemp/owbsuscs_temp';
+#
+ delete owbsuscs_traj;
+ let owbsuscs_traj = owbsuscs feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object434
+#
+ delete atfrim;
+ restore atfrim from 'TaxisTemp/atfrim_temp';
+#
+ delete atfrim_traj;
+ let atfrim_traj = atfrim feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object435
+#
+ delete ewedkl;
+ restore ewedkl from 'TaxisTemp/ewedkl_temp';
+#
+ delete ewedkl_traj;
+ let ewedkl_traj = ewedkl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object436
+#
+ delete etnads;
+ restore etnads from 'TaxisTemp/etnads_temp';
+#
+ delete etnads_traj;
+ let etnads_traj = etnads feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object437
+#
+ delete inshfola;
+ restore inshfola from 'TaxisTemp/inshfola_temp';
+#
+ delete inshfola_traj;
+ let inshfola_traj = inshfola feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object438
+#
+ delete ugatna;
+ restore ugatna from 'TaxisTemp/ugatna_temp';
+#
+ delete ugatna_traj;
+ let ugatna_traj = ugatna feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object439
+#
+ delete artgagvu;
+ restore artgagvu from 'TaxisTemp/artgagvu_temp';
+#
+ delete artgagvu_traj;
+ let artgagvu_traj = artgagvu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object440
+#
+ delete afpansh;
+ restore afpansh from 'TaxisTemp/afpansh_temp';
+#
+ delete afpansh_traj;
+ let afpansh_traj = afpansh feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object441
+#
+ delete isekdyp;
+ restore isekdyp from 'TaxisTemp/isekdyp_temp';
+#
+ delete isekdyp_traj;
+ let isekdyp_traj = isekdyp feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object442
+#
+ delete oakpikoo;
+ restore oakpikoo from 'TaxisTemp/oakpikoo_temp';
+#
+ delete oakpikoo_traj;
+ let oakpikoo_traj = oakpikoo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object443
+#
+ delete etirnfew;
+ restore etirnfew from 'TaxisTemp/etirnfew_temp';
+#
+ delete etirnfew_traj;
+ let etirnfew_traj = etirnfew feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object444
+#
+ delete erjtail;
+ restore erjtail from 'TaxisTemp/erjtail_temp';
+#
+ delete erjtail_traj;
+ let erjtail_traj = erjtail feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object445
+#
+ delete akyeerbi;
+ restore akyeerbi from 'TaxisTemp/akyeerbi_temp';
+#
+ delete akyeerbi_traj;
+ let akyeerbi_traj = akyeerbi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object446
+#
+ delete ecdiwovu;
+ restore ecdiwovu from 'TaxisTemp/ecdiwovu_temp';
+#
+ delete ecdiwovu_traj;
+ let ecdiwovu_traj = ecdiwovu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object447
+#
+ delete ofikco;
+ restore ofikco from 'TaxisTemp/ofikco_temp';
+#
+ delete ofikco_traj;
+ let ofikco_traj = ofikco feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object448
+#
+ delete egwicjuv;
+ restore egwicjuv from 'TaxisTemp/egwicjuv_temp';
+#
+ delete egwicjuv_traj;
+ let egwicjuv_traj = egwicjuv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object449
+#
+ delete ogawjem;
+ restore ogawjem from 'TaxisTemp/ogawjem_temp';
+#
+ delete ogawjem_traj;
+ let ogawjem_traj = ogawjem feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object450
+#
+ delete ojwyky;
+ restore ojwyky from 'TaxisTemp/ojwyky_temp';
+#
+ delete ojwyky_traj;
+ let ojwyky_traj = ojwyky feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object451
+#
+ delete eacderph;
+ restore eacderph from 'TaxisTemp/eacderph_temp';
+#
+ delete eacderph_traj;
+ let eacderph_traj = eacderph feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object452
+#
+ delete enyonsn;
+ restore enyonsn from 'TaxisTemp/enyonsn_temp';
+#
+ delete enyonsn_traj;
+ let enyonsn_traj = enyonsn feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object453
+#
+ delete ujtrud;
+ restore ujtrud from 'TaxisTemp/ujtrud_temp';
+#
+ delete ujtrud_traj;
+ let ujtrud_traj = ujtrud feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object454
+#
+ delete edjiye;
+ restore edjiye from 'TaxisTemp/edjiye_temp';
+#
+ delete edjiye_traj;
+ let edjiye_traj = edjiye feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object455
+#
+ delete ascley;
+ restore ascley from 'TaxisTemp/ascley_temp';
+#
+ delete ascley_traj;
+ let ascley_traj = ascley feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object456
+#
+ delete eagbaci;
+ restore eagbaci from 'TaxisTemp/eagbaci_temp';
+#
+ delete eagbaci_traj;
+ let eagbaci_traj = eagbaci feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object457
+#
+ delete aducrisi;
+ restore aducrisi from 'TaxisTemp/aducrisi_temp';
+#
+ delete aducrisi_traj;
+ let aducrisi_traj = aducrisi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object458
+#
+ delete uljior;
+ restore uljior from 'TaxisTemp/uljior_temp';
+#
+ delete uljior_traj;
+ let uljior_traj = uljior feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object459
+#
+ delete uthsyis;
+ restore uthsyis from 'TaxisTemp/uthsyis_temp';
+#
+ delete uthsyis_traj;
+ let uthsyis_traj = uthsyis feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object460
+#
+ delete eufdod;
+ restore eufdod from 'TaxisTemp/eufdod_temp';
+#
+ delete eufdod_traj;
+ let eufdod_traj = eufdod feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object461
+#
+ delete inlica;
+ restore inlica from 'TaxisTemp/inlica_temp';
+#
+ delete inlica_traj;
+ let inlica_traj = inlica feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object462
+#
+ delete ugthfu;
+ restore ugthfu from 'TaxisTemp/ugthfu_temp';
+#
+ delete ugthfu_traj;
+ let ugthfu_traj = ugthfu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object463
+#
+ delete ajixdo;
+ restore ajixdo from 'TaxisTemp/ajixdo_temp';
+#
+ delete ajixdo_traj;
+ let ajixdo_traj = ajixdo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object464
+#
+ delete exskafvo;
+ restore exskafvo from 'TaxisTemp/exskafvo_temp';
+#
+ delete exskafvo_traj;
+ let exskafvo_traj = exskafvo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object465
+#
+ delete awrenba;
+ restore awrenba from 'TaxisTemp/awrenba_temp';
+#
+ delete awrenba_traj;
+ let awrenba_traj = awrenba feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object466
+#
+ delete atfrav;
+ restore atfrav from 'TaxisTemp/atfrav_temp';
+#
+ delete atfrav_traj;
+ let atfrav_traj = atfrav feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object467
+#
+ delete eemafbij;
+ restore eemafbij from 'TaxisTemp/eemafbij_temp';
+#
+ delete eemafbij_traj;
+ let eemafbij_traj = eemafbij feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object468
+#
+ delete occeyd;
+ restore occeyd from 'TaxisTemp/occeyd_temp';
+#
+ delete occeyd_traj;
+ let occeyd_traj = occeyd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object469
+#
+ delete evbacclu;
+ restore evbacclu from 'TaxisTemp/evbacclu_temp';
+#
+ delete evbacclu_traj;
+ let evbacclu_traj = evbacclu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object470
+#
+ delete evmaja;
+ restore evmaja from 'TaxisTemp/evmaja_temp';
+#
+ delete evmaja_traj;
+ let evmaja_traj = evmaja feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object471
+#
+ delete oknscocy;
+ restore oknscocy from 'TaxisTemp/oknscocy_temp';
+#
+ delete oknscocy_traj;
+ let oknscocy_traj = oknscocy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object472
+#
+ delete uklsdryo;
+ restore uklsdryo from 'TaxisTemp/uklsdryo_temp';
+#
+ delete uklsdryo_traj;
+ let uklsdryo_traj = uklsdryo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object473
+#
+ delete aimidd;
+ restore aimidd from 'TaxisTemp/aimidd_temp';
+#
+ delete aimidd_traj;
+ let aimidd_traj = aimidd feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object474
+#
+ delete iatmeuns;
+ restore iatmeuns from 'TaxisTemp/iatmeuns_temp';
+#
+ delete iatmeuns_traj;
+ let iatmeuns_traj = iatmeuns feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object475
+#
+ delete ojvighta;
+ restore ojvighta from 'TaxisTemp/ojvighta_temp';
+#
+ delete ojvighta_traj;
+ let ojvighta_traj = ojvighta feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object476
+#
+ delete agjitfa;
+ restore agjitfa from 'TaxisTemp/agjitfa_temp';
+#
+ delete agjitfa_traj;
+ let agjitfa_traj = agjitfa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object477
+#
+ delete ejcrur;
+ restore ejcrur from 'TaxisTemp/ejcrur_temp';
+#
+ delete ejcrur_traj;
+ let ejcrur_traj = ejcrur feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object478
+#
+ delete onyenre;
+ restore onyenre from 'TaxisTemp/onyenre_temp';
+#
+ delete onyenre_traj;
+ let onyenre_traj = onyenre feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object479
+#
+ delete ektamy;
+ restore ektamy from 'TaxisTemp/ektamy_temp';
+#
+ delete ektamy_traj;
+ let ektamy_traj = ektamy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object480
+#
+ delete ognowwoz;
+ restore ognowwoz from 'TaxisTemp/ognowwoz_temp';
+#
+ delete ognowwoz_traj;
+ let ognowwoz_traj = ognowwoz feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object481
+#
+ delete evdyffu;
+ restore evdyffu from 'TaxisTemp/evdyffu_temp';
+#
+ delete evdyffu_traj;
+ let evdyffu_traj = evdyffu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object482
+#
+ delete ednillo;
+ restore ednillo from 'TaxisTemp/ednillo_temp';
+#
+ delete ednillo_traj;
+ let ednillo_traj = ednillo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object483
+#
+ delete ogshtcew;
+ restore ogshtcew from 'TaxisTemp/ogshtcew_temp';
+#
+ delete ogshtcew_traj;
+ let ogshtcew_traj = ogshtcew feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object484
+#
+ delete acpegho;
+ restore acpegho from 'TaxisTemp/acpegho_temp';
+#
+ delete acpegho_traj;
+ let acpegho_traj = acpegho feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object485
+#
+ delete ackgrica;
+ restore ackgrica from 'TaxisTemp/ackgrica_temp';
+#
+ delete ackgrica_traj;
+ let ackgrica_traj = ackgrica feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object486
+#
+ delete eytups;
+ restore eytups from 'TaxisTemp/eytups_temp';
+#
+ delete eytups_traj;
+ let eytups_traj = eytups feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object487
+#
+ delete osacmu;
+ restore osacmu from 'TaxisTemp/osacmu_temp';
+#
+ delete osacmu_traj;
+ let osacmu_traj = osacmu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object488
+#
+ delete ebdafya;
+ restore ebdafya from 'TaxisTemp/ebdafya_temp';
+#
+ delete ebdafya_traj;
+ let ebdafya_traj = ebdafya feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object489
+#
+ delete idlorra;
+ restore idlorra from 'TaxisTemp/idlorra_temp';
+#
+ delete idlorra_traj;
+ let idlorra_traj = idlorra feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object490
+#
+ delete ovkojy;
+ restore ovkojy from 'TaxisTemp/ovkojy_temp';
+#
+ delete ovkojy_traj;
+ let ovkojy_traj = ovkojy feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object491
+#
+ delete appsri;
+ restore appsri from 'TaxisTemp/appsri_temp';
+#
+ delete appsri_traj;
+ let appsri_traj = appsri feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object492
+#
+ delete izowcu;
+ restore izowcu from 'TaxisTemp/izowcu_temp';
+#
+ delete izowcu_traj;
+ let izowcu_traj = izowcu feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object493
+#
+ delete ippfeip;
+ restore ippfeip from 'TaxisTemp/ippfeip_temp';
+#
+ delete ippfeip_traj;
+ let ippfeip_traj = ippfeip feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object494
+#
+ delete usadrifo;
+ restore usadrifo from 'TaxisTemp/usadrifo_temp';
+#
+ delete usadrifo_traj;
+ let usadrifo_traj = usadrifo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object495
+#
+ delete igglitby;
+ restore igglitby from 'TaxisTemp/igglitby_temp';
+#
+ delete igglitby_traj;
+ let igglitby_traj = igglitby feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object496
+#
+ delete ewbglo;
+ restore ewbglo from 'TaxisTemp/ewbglo_temp';
+#
+ delete ewbglo_traj;
+ let ewbglo_traj = ewbglo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object497
+#
+ delete edglevi;
+ restore edglevi from 'TaxisTemp/edglevi_temp';
+#
+ delete edglevi_traj;
+ let edglevi_traj = edglevi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object498
+#
+ delete ivheoo;
+ restore ivheoo from 'TaxisTemp/ivheoo_temp';
+#
+ delete ivheoo_traj;
+ let ivheoo_traj = ivheoo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object499
+#
+ delete oygmebra;
+ restore oygmebra from 'TaxisTemp/oygmebra_temp';
+#
+ delete oygmebra_traj;
+ let oygmebra_traj = oygmebra feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object500
+#
+ delete ideutgoa;
+ restore ideutgoa from 'TaxisTemp/ideutgoa_temp';
+#
+ delete ideutgoa_traj;
+ let ideutgoa_traj = ideutgoa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object501
+#
+ delete adnerst;
+ restore adnerst from 'TaxisTemp/adnerst_temp';
+#
+ delete adnerst_traj;
+ let adnerst_traj = adnerst feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object502
+#
+ delete otfahona;
+ restore otfahona from 'TaxisTemp/otfahona_temp';
+#
+ delete otfahona_traj;
+ let otfahona_traj = otfahona feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object503
+#
+ delete iawxben;
+ restore iawxben from 'TaxisTemp/iawxben_temp';
+#
+ delete iawxben_traj;
+ let iawxben_traj = iawxben feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object504
+#
+ delete itbadpi;
+ restore itbadpi from 'TaxisTemp/itbadpi_temp';
+#
+ delete itbadpi_traj;
+ let itbadpi_traj = itbadpi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object505
+#
+ delete agdrea;
+ restore agdrea from 'TaxisTemp/agdrea_temp';
+#
+ delete agdrea_traj;
+ let agdrea_traj = agdrea feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object506
+#
+ delete ucvepnuv;
+ restore ucvepnuv from 'TaxisTemp/ucvepnuv_temp';
+#
+ delete ucvepnuv_traj;
+ let ucvepnuv_traj = ucvepnuv feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object507
+#
+ delete iahorou;
+ restore iahorou from 'TaxisTemp/iahorou_temp';
+#
+ delete iahorou_traj;
+ let iahorou_traj = iahorou feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object508
+#
+ delete ogofvoit;
+ restore ogofvoit from 'TaxisTemp/ogofvoit_temp';
+#
+ delete ogofvoit_traj;
+ let ogofvoit_traj = ogofvoit feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object509
+#
+ delete ejkipub;
+ restore ejkipub from 'TaxisTemp/ejkipub_temp';
+#
+ delete ejkipub_traj;
+ let ejkipub_traj = ejkipub feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object510
+#
+ delete edodblea;
+ restore edodblea from 'TaxisTemp/edodblea_temp';
+#
+ delete edodblea_traj;
+ let edodblea_traj = edodblea feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object511
+#
+ delete acdiyito;
+ restore acdiyito from 'TaxisTemp/acdiyito_temp';
+#
+ delete acdiyito_traj;
+ let acdiyito_traj = acdiyito feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object512
+#
+ delete omwyek;
+ restore omwyek from 'TaxisTemp/omwyek_temp';
+#
+ delete omwyek_traj;
+ let omwyek_traj = omwyek feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object513
+#
+ delete eglohabs;
+ restore eglohabs from 'TaxisTemp/eglohabs_temp';
+#
+ delete eglohabs_traj;
+ let eglohabs_traj = eglohabs feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object514
+#
+ delete enyenewl;
+ restore enyenewl from 'TaxisTemp/enyenewl_temp';
+#
+ delete enyenewl_traj;
+ let enyenewl_traj = enyenewl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object515
+#
+ delete abmuyawm;
+ restore abmuyawm from 'TaxisTemp/abmuyawm_temp';
+#
+ delete abmuyawm_traj;
+ let abmuyawm_traj = abmuyawm feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object516
+#
+ delete oljnek;
+ restore oljnek from 'TaxisTemp/oljnek_temp';
+#
+ delete oljnek_traj;
+ let oljnek_traj = oljnek feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object517
+#
+ delete otscokdr;
+ restore otscokdr from 'TaxisTemp/otscokdr_temp';
+#
+ delete otscokdr_traj;
+ let otscokdr_traj = otscokdr feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object518
+#
+ delete ofodwo;
+ restore ofodwo from 'TaxisTemp/ofodwo_temp';
+#
+ delete ofodwo_traj;
+ let ofodwo_traj = ofodwo feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object519
+#
+ delete iphybcay;
+ restore iphybcay from 'TaxisTemp/iphybcay_temp';
+#
+ delete iphybcay_traj;
+ let iphybcay_traj = iphybcay feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object520
+#
+ delete aurjyen;
+ restore aurjyen from 'TaxisTemp/aurjyen_temp';
+#
+ delete aurjyen_traj;
+ let aurjyen_traj = aurjyen feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object521
+#
+ delete atzumbon;
+ restore atzumbon from 'TaxisTemp/atzumbon_temp';
+#
+ delete atzumbon_traj;
+ let atzumbon_traj = atzumbon feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object522
+#
+ delete onannsov;
+ restore onannsov from 'TaxisTemp/onannsov_temp';
+#
+ delete onannsov_traj;
+ let onannsov_traj = onannsov feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object523
+#
+ delete iblool;
+ restore iblool from 'TaxisTemp/iblool_temp';
+#
+ delete iblool_traj;
+ let iblool_traj = iblool feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object524
+#
+ delete eotcue;
+ restore eotcue from 'TaxisTemp/eotcue_temp';
+#
+ delete eotcue_traj;
+ let eotcue_traj = eotcue feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object525
+#
+ delete ucgewft;
+ restore ucgewft from 'TaxisTemp/ucgewft_temp';
+#
+ delete ucgewft_traj;
+ let ucgewft_traj = ucgewft feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object526
+#
+ delete etalrab;
+ restore etalrab from 'TaxisTemp/etalrab_temp';
+#
+ delete etalrab_traj;
+ let etalrab_traj = etalrab feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object527
+#
+ delete ijcoga;
+ restore ijcoga from 'TaxisTemp/ijcoga_temp';
+#
+ delete ijcoga_traj;
+ let ijcoga_traj = ijcoga feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object528
+#
+ delete ocjeng;
+ restore ocjeng from 'TaxisTemp/ocjeng_temp';
+#
+ delete ocjeng_traj;
+ let ocjeng_traj = ocjeng feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object529
+#
+ delete ijhigof;
+ restore ijhigof from 'TaxisTemp/ijhigof_temp';
+#
+ delete ijhigof_traj;
+ let ijhigof_traj = ijhigof feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object530
+#
+ delete oydtesa;
+ restore oydtesa from 'TaxisTemp/oydtesa_temp';
+#
+ delete oydtesa_traj;
+ let oydtesa_traj = oydtesa feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object531
+#
+ delete itacfl;
+ restore itacfl from 'TaxisTemp/itacfl_temp';
+#
+ delete itacfl_traj;
+ let itacfl_traj = itacfl feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object532
+#
+ delete okquakar;
+ restore okquakar from 'TaxisTemp/okquakar_temp';
+#
+ delete okquakar_traj;
+ let okquakar_traj = okquakar feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object533
+#
+ delete udwebir;
+ restore udwebir from 'TaxisTemp/udwebir_temp';
+#
+ delete udwebir_traj;
+ let udwebir_traj = udwebir feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object534
+#
+ delete eefayb;
+ restore eefayb from 'TaxisTemp/eefayb_temp';
+#
+ delete eefayb_traj;
+ let eefayb_traj = eefayb feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object535
+#
+ delete atidfi;
+ restore atidfi from 'TaxisTemp/atidfi_temp';
+#
+ delete atidfi_traj;
+ let atidfi_traj = atidfi feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
+## moving object536
+#
+ delete ajthof;
+ restore ajthof from 'TaxisTemp/ajthof_temp';
+#
+ delete ajthof_traj;
+ let ajthof_traj = ajthof feed projectextendstream [Name; UTrip:units(.Trip)] consume;
+
+
